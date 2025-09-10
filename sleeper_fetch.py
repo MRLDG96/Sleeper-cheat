@@ -9,7 +9,7 @@ import re
 import time
 from datetime import datetime, timezone
 
-import requests  # installed by requirements.txt
+import requests
 
 LEAGUE_ID = "1257451535101612032"
 LEAGUE_NAME = "The *ick Is In!"
@@ -19,9 +19,10 @@ BASE = "https://api.sleeper.app/v1"
 OUTDIR = pathlib.Path("data/sleeper") / LEAGUE_SLUG
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
+# cache for players so we don't download huge file every run
 PLAYERS_DIR = pathlib.Path("data/sleeper/players")
 PLAYERS_DIR.mkdir(parents=True, exist_ok=True)
-PLAYERS_CACHE = PLAYERS_DIR / "players-lite.json"  # small subset we create
+PLAYERS_CACHE = PLAYERS_DIR / "players-lite.json"
 
 
 def get(url: str):
@@ -31,21 +32,16 @@ def get(url: str):
 
 
 def get_players_index(force_refresh: bool = False) -> dict:
-    """
-    Build a lightweight {player_id: {full_name, position, team}} index.
-    We cache it to data/sleeper/players/players-lite.json so we don't download
-    the big catalog every run.
-    """
+    """Slim down Sleeper's full catalog to just id → {name,pos,team}."""
     if PLAYERS_CACHE.exists() and not force_refresh:
         with open(PLAYERS_CACHE, "r") as f:
             return json.load(f)
 
-    # Big catalog (can be ~MBs); we immediately slim it down.
+    print("[INFO] Downloading player catalog from Sleeper...")
     players_all = get(f"{BASE}/players/nfl")
 
     lite = {}
     for pid, pdata in players_all.items():
-        # pdata keys vary; we safely pull common fields
         lite[pid] = {
             "name": pdata.get("full_name") or pdata.get("first_name"),
             "pos": pdata.get("position"),
@@ -60,22 +56,22 @@ def get_players_index(force_refresh: bool = False) -> dict:
 
 
 def main():
-    # 1) Current NFL season & week
+    # 1) NFL state (season/week)
     state = get(f"{BASE}/state/nfl")
     season = str(state.get("season"))
     week = int(state.get("week") or 1)
 
-    # 2) League metadata
+    # 2) League meta
     league = get(f"{BASE}/league/{LEAGUE_ID}")
 
     # 3) Users, rosters, matchups
     users = get(f"{BASE}/league/{LEAGUE_ID}/users")
-    time.sleep(0.1)
+    time.sleep(0.2)
     rosters = get(f"{BASE}/league/{LEAGUE_ID}/rosters")
-    time.sleep(0.1)
+    time.sleep(0.2)
     matchups = get(f"{BASE}/league/{LEAGUE_ID}/matchups/{week}")
 
-    # 4) Players index (ID -> readable)
+    # 4) Players index (adds readable names)
     players_index = get_players_index(force_refresh=False)
 
     # 5) Build snapshot
@@ -91,7 +87,7 @@ def main():
         "users": users,
         "rosters": rosters,
         "matchups": matchups,
-        "players_index": players_index,  # NEW: names/positions/teams
+        "players_index": players_index,
     }
 
     # 6) Save
@@ -101,11 +97,10 @@ def main():
 
     with open(path_ts, "w") as f:
         json.dump(snapshot, f, indent=2)
-
     with open(path_latest, "w") as f:
         json.dump(snapshot, f, indent=2)
 
-    print(f"Wrote {path_latest} and {path_ts}")
+    print(f"[WRITE] {path_latest} and {path_ts}")
 
 
 if __name__ == "__main__":
