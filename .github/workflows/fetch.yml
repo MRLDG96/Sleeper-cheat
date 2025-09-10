@@ -42,7 +42,7 @@ jobs:
       # Print Week 1 player-by-player stats for "Taylor Park Boys" in the logs
       - name: Summarize Week 1 for Taylor Park Boys
         run: |
-          python -c 'import json,sys,os
+          python -c 'import json,sys
 p="data/sleeper/The-ick-Is-In/latest.json"
 try:
     d=json.load(open(p,"r"))
@@ -63,7 +63,7 @@ if owner_id:
         if r.get("owner_id")==owner_id:
             roster_id=r.get("roster_id"); break
 if roster_id is None:
-    roster_id=10  # fallback from earlier snapshot
+    roster_id=10  # fallback if team lookup fails
 
 # prefer named week1, else raw
 wk1_list=d.get("matchups_week1_named") or d.get("matchups_week1",[])
@@ -101,13 +101,14 @@ for nm,pts in rows:
 print("------------------------------------")
 print(f"Team total (Week 1):      {total:.2f}")'
 
-      # Rebase on latest main (avoids push rejection if you edited in the UI)
+      # Safe push: pull & rebase on latest main before pushing our commit
       - name: Commit & push if changed
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
+          git fetch origin main
+          git rebase origin/main || true
           if [[ -n "$(git status --porcelain)" ]]; then
             git add -A data/sleeper/
             git commit -m "Update Sleeper snapshot"
