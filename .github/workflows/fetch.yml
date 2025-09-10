@@ -39,10 +39,10 @@ jobs:
       - name: Fetch Sleeper snapshot
         run: python sleeper_fetch.py
 
-      # Write a small Python script to print Week 1 stats for "Taylor Park Boys"
+      # Write a small Python script and then run it (no tricky YAML quoting)
       - name: Write Week 1 summary script
         run: |
-          cat > .github/week1_summary.py <<'PY'
+          cat > .github/week1_summary.py <<PY
 import json, sys
 
 PATH = "data/sleeper/The-ick-Is-In/latest.json"
@@ -52,6 +52,7 @@ def load_json(p):
         return json.load(f)
 
 def display_name(pid, idx):
+    # Handle DEF codes like "SF", "PHI"
     if isinstance(pid, str) and pid.isalpha() and 2 <= len(pid) <= 3:
         return f"{pid} D/ST"
     info = idx.get(str(pid), {})
@@ -63,23 +64,25 @@ except Exception as e:
     print(f"Could not read {PATH} -> {e}")
     sys.exit(0)
 
-# find owner_id by team name
+# Find your owner_id by team name
 owner_id = None
 for u in d.get("users", []):
     tn = ((u.get("metadata") or {}).get("team_name") or "").strip().lower()
     if tn == "taylor park boys":
-        owner_id = u.get("user_id"); break
+        owner_id = u.get("user_id")
+        break
 
-# find your roster_id
+# Get roster_id from rosters
 roster_id = None
 if owner_id:
     for r in d.get("rosters", []):
         if r.get("owner_id") == owner_id:
-            roster_id = r.get("roster_id"); break
+            roster_id = r.get("roster_id")
+            break
 if roster_id is None:
     roster_id = 10  # fallback
 
-# prefer named Week 1, else raw
+# Prefer named Week 1, else raw
 wk1_list = d.get("matchups_week1_named") or d.get("matchups_week1", [])
 m = next((x for x in wk1_list if x.get("roster_id") == roster_id), None)
 if not m:
