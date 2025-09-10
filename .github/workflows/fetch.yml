@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # allow rebase/pull
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,19 +34,23 @@ jobs:
       - name: Verify requests is installed
         run: |
           pip show requests || true
-          python -c "import sys; import requests; print('requests imported OK:', requests.__version__)"
+          python -c "import requests; print('requests imported OK:', requests.__version__)"
 
       - name: Fetch Sleeper snapshot
         run: python sleeper_fetch.py
 
+      # Fix push error: rebase on latest main before pushing our commit
       - name: Commit & push if changed
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Rebase on latest remote main (handles edits you did in the UI)
+          git pull --rebase origin main || true
           if [[ -n "$(git status --porcelain)" ]]; then
             git add -A data/sleeper/
-            git commit -m 'Update Sleeper snapshot'
-            git push
+            git commit -m "Update Sleeper snapshot"
+            git push origin HEAD:main
           else
-            echo 'No changes to commit'
+            echo "No changes to commit"
           fi
