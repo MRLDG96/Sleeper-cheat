@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Locked to Luke's Sleeper league
-# League: "The *ick Is In!" (we'll save using a safe folder name without special chars)
-# League ID (Identifier): 1257451535101612032
+# League: "The *ick Is In!"
+# League ID: 1257451535101612032
 
 import json
 import pathlib
@@ -11,46 +11,74 @@ from datetime import datetime, timezone
 
 import requests  # installed by requirements.txt
 
-# --- Settings you can change later if needed ---
 LEAGUE_ID = "1257451535101612032"
 LEAGUE_NAME = "The *ick Is In!"
-
-# Make a "slug" (safe folder/file name) from the league name: "The-ick-Is-In"
 LEAGUE_SLUG = re.sub(r"[^A-Za-z0-9]+", "-", LEAGUE_NAME).strip("-")
 
-# Sleeper base URL (Uniform Resource Locator)
 BASE = "https://api.sleeper.app/v1"
-
-# Output folder inside your repo
 OUTDIR = pathlib.Path("data/sleeper") / LEAGUE_SLUG
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
+PLAYERS_DIR = pathlib.Path("data/sleeper/players")
+PLAYERS_DIR.mkdir(parents=True, exist_ok=True)
+PLAYERS_CACHE = PLAYERS_DIR / "players-lite.json"  # small subset we create
+
 
 def get(url: str):
-    """GET a URL (Uniform Resource Locator) and return JSON (JavaScript Object Notation)."""
-    r = requests.get(url, timeout=30)
+    r = requests.get(url, timeout=60)
     r.raise_for_status()
     return r.json()
 
 
+def get_players_index(force_refresh: bool = False) -> dict:
+    """
+    Build a lightweight {player_id: {full_name, position, team}} index.
+    We cache it to data/sleeper/players/players-lite.json so we don't download
+    the big catalog every run.
+    """
+    if PLAYERS_CACHE.exists() and not force_refresh:
+        with open(PLAYERS_CACHE, "r") as f:
+            return json.load(f)
+
+    # Big catalog (can be ~MBs); we immediately slim it down.
+    players_all = get(f"{BASE}/players/nfl")
+
+    lite = {}
+    for pid, pdata in players_all.items():
+        # pdata keys vary; we safely pull common fields
+        lite[pid] = {
+            "name": pdata.get("full_name") or pdata.get("first_name"),
+            "pos": pdata.get("position"),
+            "team": pdata.get("team"),
+            "status": pdata.get("status"),
+        }
+
+    with open(PLAYERS_CACHE, "w") as f:
+        json.dump(lite, f)
+
+    return lite
+
+
 def main():
-    # 1) Current NFL "state" (season & week)
-    #    Documented by Sleeper as /v1/state/nfl
+    # 1) Current NFL season & week
     state = get(f"{BASE}/state/nfl")
     season = str(state.get("season"))
     week = int(state.get("week") or 1)
 
-    # 2) Pull league info (handy metadata)
+    # 2) League metadata
     league = get(f"{BASE}/league/{LEAGUE_ID}")
 
-    # 3) Pull pieces we actually care about: users, rosters, and this week's matchups
+    # 3) Users, rosters, matchups
     users = get(f"{BASE}/league/{LEAGUE_ID}/users")
-    time.sleep(0.1)  # small pause to be polite
+    time.sleep(0.1)
     rosters = get(f"{BASE}/league/{LEAGUE_ID}/rosters")
     time.sleep(0.1)
     matchups = get(f"{BASE}/league/{LEAGUE_ID}/matchups/{week}")
 
-    # 4) Build the snapshot
+    # 4) Players index (ID -> readable)
+    players_index = get_players_index(force_refresh=False)
+
+    # 5) Build snapshot
     snapshot = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "season": season,
@@ -63,9 +91,10 @@ def main():
         "users": users,
         "rosters": rosters,
         "matchups": matchups,
+        "players_index": players_index,  # NEW: names/positions/teams
     }
 
-    # 5) Save files: latest.json and a timestamped backup
+    # 6) Save
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
     path_ts = OUTDIR / f"{season}-wk{week}-{ts}.json"
     path_latest = OUTDIR / "latest.json"
