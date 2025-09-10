@@ -2,11 +2,11 @@ name: fetch-sleeper
 
 on:
   schedule:
-    - cron: '5 * * * *'   # every hour at minute :05 (UTC - Coordinated Universal Time)
-  workflow_dispatch: {}     # adds a "Run workflow" button
+    - cron: '5 * * * *'   # every hour at :05 UTC
+  workflow_dispatch: {}     # manual "Run workflow" button
 
 permissions:
-  contents: write            # allow pushing JSON back to the repo
+  contents: write
 
 jobs:
   run:
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 👇 Quick Fix A: debug info
+      # Quick Fix A: sanity checks
       - name: Show Python and pip
         run: |
           python --version
@@ -32,15 +32,7 @@ jobs:
       - name: Verify requests is installed
         run: |
           pip show requests || true
-          python - <<'PY'
-import sys
-try:
-    import requests
-    print("requests imported OK:", requests.__version__)
-except Exception as e:
-    print("FAILED to import requests:", e)
-    sys.exit(1)
-PY
+          python -c "import sys; import requests; print('requests imported OK:', requests.__version__)"
 
       - name: Fetch Sleeper snapshot
         run: python sleeper_fetch.py
@@ -51,8 +43,8 @@ PY
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain)" ]]; then
             git add -A data/sleeper/
-            git commit -m "Update Sleeper snapshot"
+            git commit -m 'Update Sleeper snapshot'
             git push
           else
-            echo "No changes to commit"
+            echo 'No changes to commit'
           fi
