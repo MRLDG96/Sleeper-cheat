@@ -32,7 +32,7 @@ jobs:
       - name: Verify requests is installed
         run: |
           pip show requests || true
-          python - << 'PY'
+          python - <<'PY'
 import sys
 try:
     import requests
