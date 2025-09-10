@@ -25,7 +25,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Quick sanity checks
       - name: Show Python and pip
         run: |
           python --version
@@ -36,93 +35,10 @@ jobs:
           pip show requests || true
           python -c "import requests; print('requests imported OK:', requests.__version__)"
 
-      - name: Fetch Sleeper snapshot
+      - name: Fetch Sleeper snapshot (prints Week 1 summary)
         run: python sleeper_fetch.py
 
-      # Write a small Python script and then run it (no tricky YAML quoting)
-      - name: Write Week 1 summary script
-        run: |
-          mkdir -p .github
-          cat > .github/week1_summary.py <<PY
-import json, sys
-
-PATH = "data/sleeper/The-ick-Is-In/latest.json"
-
-def load_json(p):
-    with open(p, "r") as f:
-        return json.load(f)
-
-def display_name(pid, idx):
-    # Handle DEF codes like "SF", "PHI"
-    if isinstance(pid, str) and pid.isalpha() and 2 <= len(pid) <= 3:
-        return f"{pid} D/ST"
-    info = idx.get(str(pid), {})
-    return info.get("name") or str(pid)
-
-try:
-    d = load_json(PATH)
-except Exception as e:
-    print(f"Could not read {PATH} -> {e}")
-    sys.exit(0)
-
-# Find your owner_id by team name
-owner_id = None
-for u in d.get("users", []):
-    tn = ((u.get("metadata") or {}).get("team_name") or "").strip().lower()
-    if tn == "taylor park boys":
-        owner_id = u.get("user_id")
-        break
-
-# Get roster_id from rosters
-roster_id = None
-if owner_id:
-    for r in d.get("rosters", []):
-        if r.get("owner_id") == owner_id:
-            roster_id = r.get("roster_id")
-            break
-if roster_id is None:
-    roster_id = 10  # fallback
-
-# Prefer named Week 1, else raw
-wk1_list = d.get("matchups_week1_named") or d.get("matchups_week1", [])
-m = next((x for x in wk1_list if x.get("roster_id") == roster_id), None)
-if not m:
-    print(f"No Week 1 data for roster {roster_id}")
-    sys.exit(0)
-
-starters = m.get("starters") or m.get("players") or []
-named = bool(starters) and isinstance(starters[0], dict)
-players_index = d.get("players_index", {})
-ids = [(p.get("id") if isinstance(p, dict) else p) for p in starters]
-pp = m.get("players_points", {})
-
-rows = []
-total = 0.0
-for pid in ids:
-    pts = float(pp.get(str(pid), 0.0))
-    nm = None
-    if named:
-        for P in starters:
-            if isinstance(P, dict) and P.get("id") == pid:
-                nm = P.get("name")
-                break
-    nm = nm or display_name(pid, players_index)
-    rows.append((nm, pts))
-    total += pts
-
-rows.sort(key=lambda x: x[1], reverse=True)
-print("=== Week 1 — Taylor Park Boys ===")
-for nm, pts in rows:
-    print(f"{nm:28s} {pts:6.2f}")
-print("------------------------------------")
-print(f"Team total (Week 1):      {total:.2f}")
-PY
-
-      - name: Summarize Week 1 for Taylor Park Boys
-        run: python .github/week1_summary.py
-
-      # Safe push: pull & rebase on latest main before pushing our commit
-      - name: Commit & push if changed
+      - name: Commit & push if changed (safe rebase)
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
