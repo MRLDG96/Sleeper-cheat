@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Quick Fix A: sanity checks
+      # Quick sanity checks
       - name: Show Python and pip
         run: |
           python --version
@@ -39,13 +39,116 @@ jobs:
       - name: Fetch Sleeper snapshot
         run: python sleeper_fetch.py
 
-      # Fix push error: rebase on latest main before pushing our commit
+      # NEW: Print Week 1 player-by-player stats for "Taylor Park Boys" in the logs
+      - name: Summarize Week 1 for Taylor Park Boys
+        run: |
+          python - <<'PY'
+import json, sys, os
+
+LATEST = "data/sleeper/The-ick-Is-In/latest.json"
+
+def load_json(p):
+    with open(p, "r") as f:
+        return json.load(f)
+
+def name_of(pid, idx):
+    # Handle DEF codes like "SF", "PHI", etc.
+    if isinstance(pid, str) and pid.isalpha() and 2 <= len(pid) <= 3:
+        return f"{pid} D/ST"
+    info = idx.get(str(pid), {})
+    return info.get("name") or str(pid)
+
+try:
+    data = load_json(LATEST)
+except Exception as e:
+    print("Could not read", LATEST, "->", e)
+    sys.exit(0)
+
+# 1) Find your owner_id by team name in users[].metadata.team_name
+owner_id = None
+for u in data.get("users", []):
+    team_name = (u.get("metadata", {}) or {}).get("team_name", "")
+    if isinstance(team_name, str) and team_name.strip().lower() == "taylor park boys":
+        owner_id = u.get("user_id")
+        break
+
+# 2) Find your roster_id from rosters[] by matching owner_id
+roster_id = None
+if owner_id:
+    for r in data.get("rosters", []):
+        if r.get("owner_id") == owner_id:
+            roster_id = r.get("roster_id")
+            break
+
+# Fallback if not found (was 10 in earlier snapshot)
+if roster_id is None:
+    roster_id = 10
+
+# 3) Prefer the "named" week 1 matchups; fall back to raw if needed
+wk1_list = data.get("matchups_week1_named")
+named = True
+if not wk1_list:
+    wk1_list = data.get("matchups_week1", [])
+    named = False
+
+# Find this roster's week 1 entry
+wk1 = None
+for m in wk1_list:
+    if m.get("roster_id") == roster_id:
+        wk1 = m
+        break
+
+if not wk1:
+    print(f"No Week 1 data found for roster_id {roster_id}")
+    sys.exit(0)
+
+players_index = data.get("players_index", {})
+
+# Build the list of player IDs in the lineup
+# Use starters if available, else all players
+starters = wk1.get("starters") or wk1.get("players") or []
+ids = []
+if named:
+    # items are dicts with 'id' and 'name'
+    ids = [p.get("id") for p in starters if isinstance(p, dict)]
+else:
+    # items are raw ids/strings
+    ids = starters
+
+# Points are always in players_points keyed by string player_id (or DEF code)
+players_points = wk1.get("players_points", {})
+
+rows = []
+total = 0.0
+for pid in ids:
+    pts = float(players_points.get(str(pid), 0.0))
+    nm = None
+    if named:
+        # try to use the provided name if available
+        # find the matching dict in starters
+        found = next((p for p in starters if (isinstance(p, dict) and p.get("id") == pid)), None)
+        nm = (found or {}).get("name")
+    if not nm:
+        nm = name_of(pid, players_index)
+    rows.append((nm, pts))
+    total += pts
+
+# Sort by points descending
+rows.sort(key=lambda x: x[1], reverse=True)
+
+print("=== Week 1 — Taylor Park Boys ===")
+for nm, pts in rows:
+    print(f"{nm:28s} {pts:6.2f}")
+print("-" * 36)
+print(f"Team total (Week 1):      {total:.2f}")
+PY
+
+      # Rebase on latest main (avoids push rejection if you edited in the UI)
       - name: Commit & push if changed
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Rebase on latest remote main (handles edits you did in the UI)
           git pull --rebase origin main || true
           if [[ -n "$(git status --porcelain)" ]]; then
             git add -A data/sleeper/
