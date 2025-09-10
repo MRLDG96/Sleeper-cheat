@@ -23,6 +23,25 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 👇 Quick Fix A: debug info
+      - name: Show Python and pip
+        run: |
+          python --version
+          pip --version
+
+      - name: Verify requests is installed
+        run: |
+          pip show requests || true
+          python - << 'PY'
+import sys
+try:
+    import requests
+    print("requests imported OK:", requests.__version__)
+except Exception as e:
+    print("FAILED to import requests:", e)
+    sys.exit(1)
+PY
+
       - name: Fetch Sleeper snapshot
         run: python sleeper_fetch.py
 
