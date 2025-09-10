@@ -1,0 +1,39 @@
+name: fetch-sleeper
+
+on:
+  schedule:
+    - cron: '5 * * * *'   # every hour at minute :05 (UTC - Coordinated Universal Time)
+  workflow_dispatch: {}     # adds a "Run workflow" button
+
+permissions:
+  contents: write            # allow pushing JSON back to the repo
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Sleeper snapshot
+        run: python sleeper_fetch.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A data/sleeper/
+            git commit -m "Update Sleeper snapshot"
+            git push
+          else
+            echo "No changes to commit"
+          fi
