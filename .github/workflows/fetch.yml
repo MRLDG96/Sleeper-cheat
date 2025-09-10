@@ -42,6 +42,7 @@ jobs:
       # Write a small Python script and then run it (no tricky YAML quoting)
       - name: Write Week 1 summary script
         run: |
+          mkdir -p .github
           cat > .github/week1_summary.py <<PY
 import json, sys
 
@@ -103,7 +104,8 @@ for pid in ids:
     if named:
         for P in starters:
             if isinstance(P, dict) and P.get("id") == pid:
-                nm = P.get("name"); break
+                nm = P.get("name")
+                break
     nm = nm or display_name(pid, players_index)
     rows.append((nm, pts))
     total += pts
