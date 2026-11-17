@@ -1,8 +1,8 @@
 {
   "snapshot_version": 3,
-  "fetched_at": "2026-11-17T01:40:13.406819+00:00",
+  "fetched_at": "2026-11-17T10:17:35.146501+00:00",
   "season": "2026",
-  "week": 10,
+  "week": 11,
   "endpoints": {
     "state": "https://api.sleeper.app/v1/state/nfl",
     "league": "https://api.sleeper.app/v1/league/1257451535101612032",
@@ -17,8 +17,8 @@
     "players_index_source": "https://api.sleeper.app/v1/players/nfl"
   },
   "state": {
-    "week": 10,
-    "leg": 10,
+    "week": 11,
+    "leg": 11,
     "season": "2026",
     "season_type": "regular",
     "league_season": "2026",
@@ -9532,14 +9532,686 @@
             "TB": 2.0
           }
         }
+      ],
+      "11": [
+        {
+          "points": 151.9,
+          "players": [
+            "10236",
+            "11560",
+            "11604",
+            "11631",
+            "1479",
+            "2747",
+            "4199",
+            "4984",
+            "6801",
+            "7021",
+            "8134",
+            "8138",
+            "9500",
+            "9997",
+            "NE",
+            "PHI"
+          ],
+          "roster_id": 1,
+          "custom_points": null,
+          "matchup_id": 3,
+          "starters": [
+            "4984",
+            "8138",
+            "7021",
+            "6801",
+            "9997",
+            "8134",
+            "11604",
+            "11560",
+            "2747",
+            "NE"
+          ],
+          "starters_points": [
+            45.68,
+            20.4,
+            15.0,
+            15.3,
+            11.3,
+            0.7,
+            14.2,
+            10.32,
+            14.0,
+            5.0
+          ],
+          "players_points": {
+            "10236": 0.0,
+            "11560": 10.32,
+            "11604": 14.2,
+            "11631": 0.0,
+            "1479": 9.3,
+            "2747": 14.0,
+            "4199": 11.1,
+            "4984": 45.68,
+            "6801": 15.3,
+            "7021": 15.0,
+            "8134": 0.7,
+            "8138": 20.4,
+            "9500": 0.0,
+            "9997": 11.3,
+            "NE": 5.0,
+            "PHI": 8.0
+          }
+        },
+        {
+          "points": 183.64,
+          "players": [
+            "10213",
+            "10232",
+            "11533",
+            "11589",
+            "1466",
+            "3294",
+            "4892",
+            "5850",
+            "5870",
+            "5872",
+            "5892",
+            "6786",
+            "6819",
+            "9221",
+            "9504",
+            "9508",
+            "BAL"
+          ],
+          "roster_id": 2,
+          "custom_points": null,
+          "matchup_id": 1,
+          "starters": [
+            "3294",
+            "9221",
+            "5850",
+            "6786",
+            "10232",
+            "5872",
+            "1466",
+            "4892",
+            "11533",
+            "BAL"
+          ],
+          "starters_points": [
+            25.32,
+            20.6,
+            4.0,
+            17.6,
+            34.5,
+            20.7,
+            24.1,
+            17.82,
+            9.0,
+            10.0
+          ],
+          "players_points": {
+            "10213": 14.86,
+            "10232": 34.5,
+            "11533": 9.0,
+            "11589": 0.0,
+            "1466": 24.1,
+            "3294": 25.32,
+            "4892": 17.82,
+            "5850": 4.0,
+            "5870": 0.0,
+            "5872": 20.7,
+            "5892": 4.7,
+            "6786": 17.6,
+            "6819": 0.0,
+            "9221": 20.6,
+            "9504": 0.0,
+            "9508": 8.4,
+            "BAL": 10.0
+          }
+        },
+        {
+          "points": 92.14,
+          "players": [
+            "11563",
+            "11564",
+            "11584",
+            "11620",
+            "11655",
+            "4098",
+            "4983",
+            "5844",
+            "6794",
+            "7526",
+            "8111",
+            "8126",
+            "8136",
+            "8259",
+            "9224",
+            "9484",
+            "LAC"
+          ],
+          "roster_id": 3,
+          "custom_points": null,
+          "matchup_id": 2,
+          "starters": [
+            "11564",
+            "8136",
+            "9224",
+            "11620",
+            "7526",
+            "6794",
+            "8111",
+            "11563",
+            "8259",
+            "LAC"
+          ],
+          "starters_points": [
+            16.44,
+            8.2,
+            18.7,
+            6.1,
+            8.2,
+            11.1,
+            4.8,
+            12.6,
+            8.0,
+            -2.0
+          ],
+          "players_points": {
+            "11563": 12.6,
+            "11564": 16.44,
+            "11584": 0.0,
+            "11620": 6.1,
+            "11655": 17.9,
+            "4098": 13.2,
+            "4983": 3.1,
+            "5844": 6.9,
+            "6794": 11.1,
+            "7526": 8.2,
+            "8111": 4.8,
+            "8126": 7.6,
+            "8136": 8.2,
+            "8259": 8.0,
+            "9224": 18.7,
+            "9484": 0.0,
+            "LAC": -2.0
+          }
+        },
+        {
+          "points": 124.6,
+          "players": [
+            "12512",
+            "12526",
+            "12527",
+            "12711",
+            "19",
+            "4035",
+            "5001",
+            "5846",
+            "5849",
+            "6768",
+            "7049",
+            "7564",
+            "7585",
+            "8144",
+            "9226",
+            "KC"
+          ],
+          "roster_id": 4,
+          "custom_points": null,
+          "matchup_id": 4,
+          "starters": [
+            "19",
+            "9226",
+            "12527",
+            "5846",
+            "7564",
+            "12526",
+            "5001",
+            "6768",
+            "12711",
+            "KC"
+          ],
+          "starters_points": [
+            10.86,
+            22.5,
+            9.4,
+            9.9,
+            6.0,
+            34.0,
+            11.1,
+            6.84,
+            12.0,
+            2.0
+          ],
+          "players_points": {
+            "12512": 5.9,
+            "12526": 34.0,
+            "12527": 9.4,
+            "12711": 12.0,
+            "19": 10.86,
+            "4035": 0.0,
+            "5001": 11.1,
+            "5846": 9.9,
+            "5849": 0.0,
+            "6768": 6.84,
+            "7049": 9.4,
+            "7564": 6.0,
+            "7585": 17.36,
+            "8144": 0.0,
+            "9226": 22.5,
+            "KC": 2.0
+          }
+        },
+        {
+          "points": 145.1,
+          "players": [
+            "10229",
+            "11635",
+            "11638",
+            "12474",
+            "12506",
+            "12514",
+            "12518",
+            "12529",
+            "3163",
+            "5189",
+            "6904",
+            "7611",
+            "8183",
+            "8676",
+            "9509",
+            "DEN"
+          ],
+          "roster_id": 5,
+          "custom_points": null,
+          "matchup_id": 1,
+          "starters": [
+            "6904",
+            "9509",
+            "12529",
+            "10229",
+            "12514",
+            "11635",
+            "12506",
+            "8183",
+            "5189",
+            "DEN"
+          ],
+          "starters_points": [
+            14.5,
+            31.3,
+            32.3,
+            9.8,
+            9.0,
+            4.3,
+            4.6,
+            19.3,
+            12.0,
+            8.0
+          ],
+          "players_points": {
+            "10229": 9.8,
+            "11635": 4.3,
+            "11638": 1.0,
+            "12474": 6.1,
+            "12506": 4.6,
+            "12514": 9.0,
+            "12518": 0.0,
+            "12529": 32.3,
+            "3163": 13.1,
+            "5189": 12.0,
+            "6904": 14.5,
+            "7611": 0.0,
+            "8183": 19.3,
+            "8676": 5.7,
+            "9509": 31.3,
+            "DEN": 8.0
+          }
+        },
+        {
+          "points": 161.8,
+          "players": [
+            "11627",
+            "12493",
+            "12507",
+            "12508",
+            "12519",
+            "3257",
+            "4034",
+            "4217",
+            "5927",
+            "6650",
+            "7523",
+            "7588",
+            "8110",
+            "8142",
+            "8148",
+            "ATL"
+          ],
+          "roster_id": 6,
+          "custom_points": null,
+          "matchup_id": 4,
+          "starters": [
+            "3257",
+            "4034",
+            "7588",
+            "11627",
+            "8148",
+            "12519",
+            "4217",
+            "7523",
+            "6650",
+            "ATL"
+          ],
+          "starters_points": [
+            25.88,
+            35.1,
+            10.3,
+            12.4,
+            19.7,
+            5.7,
+            24.7,
+            16.02,
+            8.0,
+            4.0
+          ],
+          "players_points": {
+            "11627": 12.4,
+            "12493": 6.1,
+            "12507": 0.0,
+            "12508": 0.0,
+            "12519": 5.7,
+            "3257": 25.88,
+            "4034": 35.1,
+            "4217": 24.7,
+            "5927": 0.0,
+            "6650": 8.0,
+            "7523": 16.02,
+            "7588": 10.3,
+            "8110": 11.6,
+            "8142": 0.0,
+            "8148": 19.7,
+            "ATL": 4.0
+          }
+        },
+        {
+          "points": 91.66,
+          "players": [
+            "11539",
+            "12485",
+            "12540",
+            "4018",
+            "421",
+            "4943",
+            "5022",
+            "6790",
+            "6806",
+            "7002",
+            "7569",
+            "8112",
+            "8121",
+            "8151",
+            "8228",
+            "GB"
+          ],
+          "roster_id": 7,
+          "custom_points": null,
+          "matchup_id": 2,
+          "starters": [
+            "421",
+            "8228",
+            "6790",
+            "8121",
+            "7569",
+            "12485",
+            "5022",
+            "4943",
+            "11539",
+            "GB"
+          ],
+          "starters_points": [
+            13.2,
+            8.7,
+            9.0,
+            9.3,
+            24.2,
+            1.6,
+            4.4,
+            9.26,
+            4.0,
+            8.0
+          ],
+          "players_points": {
+            "11539": 4.0,
+            "12485": 1.6,
+            "12540": 3.4,
+            "4018": 0.0,
+            "421": 13.2,
+            "4943": 9.26,
+            "5022": 4.4,
+            "6790": 9.0,
+            "6806": 0.0,
+            "7002": 0.0,
+            "7569": 24.2,
+            "8112": 19.9,
+            "8121": 9.3,
+            "8151": 20.1,
+            "8228": 8.7,
+            "GB": 8.0
+          }
+        },
+        {
+          "points": 109.08,
+          "players": [
+            "10219",
+            "2306",
+            "3198",
+            "4037",
+            "4195",
+            "4881",
+            "5947",
+            "6804",
+            "7525",
+            "7553",
+            "8155",
+            "8205",
+            "9488",
+            "9493",
+            "9753",
+            "SEA"
+          ],
+          "roster_id": 8,
+          "custom_points": null,
+          "matchup_id": 3,
+          "starters": [
+            "4881",
+            "3198",
+            "8155",
+            "9493",
+            "7525",
+            "9488",
+            "7553",
+            "6804",
+            "4195",
+            "SEA"
+          ],
+          "starters_points": [
+            6.72,
+            21.2,
+            8.4,
+            14.3,
+            1.8,
+            21.6,
+            3.4,
+            17.66,
+            11.0,
+            3.0
+          ],
+          "players_points": {
+            "10219": 9.5,
+            "2306": 12.04,
+            "3198": 21.2,
+            "4037": 0.0,
+            "4195": 11.0,
+            "4881": 6.72,
+            "5947": 11.4,
+            "6804": 17.66,
+            "7525": 1.8,
+            "7553": 3.4,
+            "8155": 8.4,
+            "8205": 0.0,
+            "9488": 21.6,
+            "9493": 14.3,
+            "9753": 6.7,
+            "SEA": 3.0
+          }
+        },
+        {
+          "points": 140.26,
+          "players": [
+            "11647",
+            "11792",
+            "12545",
+            "2133",
+            "2307",
+            "3451",
+            "4866",
+            "5045",
+            "5859",
+            "6770",
+            "6797",
+            "8130",
+            "8137",
+            "8150",
+            "9756",
+            "9758",
+            "DET",
+            "HOU"
+          ],
+          "roster_id": 9,
+          "custom_points": null,
+          "matchup_id": 5,
+          "starters": [
+            "6797",
+            "8150",
+            "4866",
+            "2133",
+            "8137",
+            "5859",
+            "8130",
+            "2307",
+            "11792",
+            "HOU"
+          ],
+          "starters_points": [
+            4.34,
+            16.6,
+            10.0,
+            7.1,
+            30.4,
+            11.9,
+            28.5,
+            16.42,
+            5.0,
+            10.0
+          ],
+          "players_points": {
+            "11647": 3.2,
+            "11792": 5.0,
+            "12545": 0.0,
+            "2133": 7.1,
+            "2307": 16.42,
+            "3451": 0.0,
+            "4866": 10.0,
+            "5045": 9.9,
+            "5859": 11.9,
+            "6770": 0.0,
+            "6797": 4.34,
+            "8130": 28.5,
+            "8137": 30.4,
+            "8150": 16.6,
+            "9756": 10.0,
+            "9758": 0.0,
+            "DET": 2.0,
+            "HOU": 10.0
+          }
+        },
+        {
+          "points": 105.54,
+          "players": [
+            "10859",
+            "11565",
+            "11624",
+            "11628",
+            "12489",
+            "1339",
+            "1945",
+            "2449",
+            "4046",
+            "5970",
+            "6813",
+            "7543",
+            "7547",
+            "8146",
+            "96",
+            "9754",
+            "LAR"
+          ],
+          "roster_id": 10,
+          "custom_points": null,
+          "matchup_id": 5,
+          "starters": [
+            "4046",
+            "7543",
+            "12489",
+            "7547",
+            "9754",
+            "2449",
+            "1339",
+            "11565",
+            "1945",
+            "LAR"
+          ],
+          "starters_points": [
+            15.34,
+            19.3,
+            8.0,
+            6.2,
+            0.0,
+            20.5,
+            8.2,
+            8.0,
+            10.0,
+            10.0
+          ],
+          "players_points": {
+            "10859": 0.0,
+            "11565": 8.0,
+            "11624": 5.5,
+            "11628": 0.0,
+            "12489": 8.0,
+            "1339": 8.2,
+            "1945": 10.0,
+            "2449": 20.5,
+            "4046": 15.34,
+            "5970": 23.8,
+            "6813": 0.0,
+            "7543": 19.3,
+            "7547": 6.2,
+            "8146": 0.0,
+            "96": 9.44,
+            "9754": 0.0,
+            "LAR": 10.0
+          }
+        }
       ]
     }
   },
   "matchups_named_current": [
     {
-      "matchup_id": 4,
+      "matchup_id": 3,
       "roster_id": 1,
-      "points": 117.7,
+      "points": 151.9,
       "starters": [
         {
           "id": "4984",
@@ -9563,10 +10235,17 @@
           "status": "Active"
         },
         {
-          "id": "9500",
-          "name": "Josh Downs",
+          "id": "6801",
+          "name": "Tee Higgins",
           "pos": "WR",
-          "team": "IND",
+          "team": "CIN",
+          "status": "Active"
+        },
+        {
+          "id": "9997",
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -9574,13 +10253,6 @@
           "name": "Khalil Shakir",
           "pos": "WR",
           "team": "BUF",
-          "status": "Active"
-        },
-        {
-          "id": "1479",
-          "name": "Keenan Allen",
-          "pos": "WR",
-          "team": "LAC",
           "status": "Active"
         },
         {
@@ -9605,13 +10277,20 @@
           "status": "Active"
         },
         {
-          "id": "IND",
-          "name": "IND D/ST",
+          "id": "NE",
+          "name": "NE D/ST",
           "pos": "DEF",
-          "team": "IND"
+          "team": "NE"
         }
       ],
       "players": [
+        {
+          "id": "10236",
+          "name": "Dalton Kincaid",
+          "pos": "TE",
+          "team": "BUF",
+          "status": "Active"
+        },
         {
           "id": "11560",
           "name": "Caleb Williams",
@@ -9662,13 +10341,6 @@
           "status": "Active"
         },
         {
-          "id": "5892",
-          "name": "David Montgomery",
-          "pos": "RB",
-          "team": "DET",
-          "status": "Active"
-        },
-        {
           "id": "6801",
           "name": "Tee Higgins",
           "pos": "WR",
@@ -9697,13 +10369,6 @@
           "status": "Active"
         },
         {
-          "id": "9487",
-          "name": "Parker Washington",
-          "pos": "WR",
-          "team": "JAX",
-          "status": "Active"
-        },
-        {
           "id": "9500",
           "name": "Josh Downs",
           "pos": "WR",
@@ -9711,47 +10376,54 @@
           "status": "Active"
         },
         {
-          "id": "IND",
-          "name": "IND D/ST",
-          "pos": "DEF",
-          "team": "IND"
+          "id": "9997",
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "status": "Active"
         },
         {
           "id": "NE",
           "name": "NE D/ST",
           "pos": "DEF",
           "team": "NE"
+        },
+        {
+          "id": "PHI",
+          "name": "PHI D/ST",
+          "pos": "DEF",
+          "team": "PHI"
         }
       ],
       "players_points": {
-        "11560": 25.1,
-        "11604": 3.7,
+        "10236": 0.0,
+        "11560": 10.32,
+        "11604": 14.2,
         "11631": 0.0,
-        "1479": 3.9,
-        "2747": 15.0,
-        "4199": 15.9,
-        "4984": 22.34,
-        "5892": 10.1,
-        "6801": 0.0,
-        "7021": 15.3,
-        "8134": 13.08,
-        "8138": 10.7,
-        "9487": 21.5,
-        "9500": 2.58,
-        "IND": 6.0,
-        "NE": 2.0
+        "1479": 9.3,
+        "2747": 14.0,
+        "4199": 11.1,
+        "4984": 45.68,
+        "6801": 15.3,
+        "7021": 15.0,
+        "8134": 0.7,
+        "8138": 20.4,
+        "9500": 0.0,
+        "9997": 11.3,
+        "NE": 5.0,
+        "PHI": 8.0
       }
     },
     {
-      "matchup_id": 2,
+      "matchup_id": 1,
       "roster_id": 2,
-      "points": 143.72,
+      "points": 183.64,
       "starters": [
         {
-          "id": "5870",
-          "name": "Daniel Jones",
+          "id": "3294",
+          "name": "Dak Prescott",
           "pos": "QB",
-          "team": "IND",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -9769,6 +10441,20 @@
           "status": "Active"
         },
         {
+          "id": "6786",
+          "name": "CeeDee Lamb",
+          "pos": "WR",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "id": "10232",
+          "name": "Michael Wilson",
+          "pos": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "id": "5872",
           "name": "Deebo Samuel",
           "pos": "WR",
@@ -9776,24 +10462,10 @@
           "status": "Active"
         },
         {
-          "id": "9997",
-          "name": "Zay Flowers",
-          "pos": "WR",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
-          "id": "6819",
-          "name": "Michael Pittman",
-          "pos": "WR",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
-          "id": "12517",
-          "name": "Colston Loveland",
+          "id": "1466",
+          "name": "Travis Kelce",
           "pos": "TE",
-          "team": "CHI",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -9804,20 +10476,34 @@
           "status": "Active"
         },
         {
-          "id": "17",
-          "name": "Matt Prater",
+          "id": "11533",
+          "name": "Brandon Aubrey",
           "pos": "K",
-          "team": "BUF",
+          "team": "DAL",
           "status": "Active"
         },
         {
-          "id": "CLE",
-          "name": "CLE D/ST",
+          "id": "BAL",
+          "name": "BAL D/ST",
           "pos": "DEF",
-          "team": "CLE"
+          "team": "BAL"
         }
       ],
       "players": [
+        {
+          "id": "10213",
+          "name": "Tre Tucker",
+          "pos": "WR",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
+          "id": "10232",
+          "name": "Michael Wilson",
+          "pos": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
         {
           "id": "11533",
           "name": "Brandon Aubrey",
@@ -9833,24 +10519,10 @@
           "status": "Active"
         },
         {
-          "id": "12517",
-          "name": "Colston Loveland",
-          "pos": "TE",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "id": "1466",
           "name": "Travis Kelce",
           "pos": "TE",
           "team": "KC",
-          "status": "Active"
-        },
-        {
-          "id": "17",
-          "name": "Matt Prater",
-          "pos": "K",
-          "team": "BUF",
           "status": "Active"
         },
         {
@@ -9889,6 +10561,13 @@
           "status": "Active"
         },
         {
+          "id": "5892",
+          "name": "David Montgomery",
+          "pos": "RB",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
           "id": "6786",
           "name": "CeeDee Lamb",
           "pos": "WR",
@@ -9910,6 +10589,13 @@
           "status": "Active"
         },
         {
+          "id": "9504",
+          "name": "Kayshon Boutte",
+          "pos": "WR",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
           "id": "9508",
           "name": "Tyjae Spears",
           "pos": "RB",
@@ -9917,42 +10603,36 @@
           "status": "Inactive"
         },
         {
-          "id": "9997",
-          "name": "Zay Flowers",
-          "pos": "WR",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
-          "id": "CLE",
-          "name": "CLE D/ST",
+          "id": "BAL",
+          "name": "BAL D/ST",
           "pos": "DEF",
-          "team": "CLE"
+          "team": "BAL"
         }
       ],
       "players_points": {
-        "11533": 0.0,
+        "10213": 14.86,
+        "10232": 34.5,
+        "11533": 9.0,
         "11589": 0.0,
-        "12517": 9.5,
-        "1466": 0.0,
-        "17": 1.0,
-        "3294": 0.0,
-        "4892": 23.92,
-        "5850": 19.7,
-        "5870": 16.5,
-        "5872": 12.9,
-        "6786": 0.0,
-        "6819": 3.9,
-        "9221": 39.2,
-        "9508": 0.0,
-        "9997": 12.1,
-        "CLE": 5.0
+        "1466": 24.1,
+        "3294": 25.32,
+        "4892": 17.82,
+        "5850": 4.0,
+        "5870": 0.0,
+        "5872": 20.7,
+        "5892": 4.7,
+        "6786": 17.6,
+        "6819": 0.0,
+        "9221": 20.6,
+        "9504": 0.0,
+        "9508": 8.4,
+        "BAL": 10.0
       }
     },
     {
       "matchup_id": 2,
       "roster_id": 3,
-      "points": 126.3,
+      "points": 92.14,
       "starters": [
         {
           "id": "11564",
@@ -9969,10 +10649,10 @@
           "status": "Active"
         },
         {
-          "id": "11655",
-          "name": "Tyrone Tracy",
+          "id": "9224",
+          "name": "Chase Brown",
           "pos": "RB",
-          "team": "NYG",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -10018,10 +10698,10 @@
           "status": "Active"
         },
         {
-          "id": "BUF",
-          "name": "BUF D/ST",
+          "id": "LAC",
+          "name": "LAC D/ST",
           "pos": "DEF",
-          "team": "BUF"
+          "team": "LAC"
         }
       ],
       "players": [
@@ -10138,42 +10818,42 @@
           "status": "Active"
         },
         {
-          "id": "BUF",
-          "name": "BUF D/ST",
+          "id": "LAC",
+          "name": "LAC D/ST",
           "pos": "DEF",
-          "team": "BUF"
+          "team": "LAC"
         }
       ],
       "players_points": {
-        "11563": 7.8,
-        "11564": 19.1,
+        "11563": 12.6,
+        "11564": 16.44,
         "11584": 0.0,
-        "11620": 20.6,
-        "11655": 8.1,
-        "4098": 0.0,
-        "4983": 0.0,
-        "5844": 2.8,
-        "6794": 7.7,
-        "7526": 19.4,
-        "8111": 17.2,
-        "8126": 12.2,
-        "8136": 10.4,
-        "8259": 13.0,
-        "9224": 0.0,
+        "11620": 6.1,
+        "11655": 17.9,
+        "4098": 13.2,
+        "4983": 3.1,
+        "5844": 6.9,
+        "6794": 11.1,
+        "7526": 8.2,
+        "8111": 4.8,
+        "8126": 7.6,
+        "8136": 8.2,
+        "8259": 8.0,
+        "9224": 18.7,
         "9484": 0.0,
-        "BUF": 3.0
+        "LAC": -2.0
       }
     },
     {
-      "matchup_id": 5,
+      "matchup_id": 4,
       "roster_id": 4,
-      "points": 170.1,
+      "points": 124.6,
       "starters": [
         {
-          "id": "7585",
-          "name": "Davis Mills",
+          "id": "19",
+          "name": "Joe Flacco",
           "pos": "QB",
-          "team": "HOU",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -10198,10 +10878,10 @@
           "status": "Active"
         },
         {
-          "id": "8144",
-          "name": "Chris Olave",
+          "id": "7564",
+          "name": "Ja'Marr Chase",
           "pos": "WR",
-          "team": "NO",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -10212,10 +10892,10 @@
           "status": "Active"
         },
         {
-          "id": "12518",
-          "name": "Tyler Warren",
+          "id": "5001",
+          "name": "Dalton Schultz",
           "pos": "TE",
-          "team": "IND",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -10233,11 +10913,10 @@
           "status": "Active"
         },
         {
-          "id": "0",
-          "name": "0",
-          "pos": null,
-          "team": null,
-          "status": null
+          "id": "KC",
+          "name": "KC D/ST",
+          "pos": "DEF",
+          "team": "KC"
         }
       ],
       "players": [
@@ -10247,13 +10926,6 @@
           "pos": "RB",
           "team": "CLE",
           "status": "Inactive"
-        },
-        {
-          "id": "12518",
-          "name": "Tyler Warren",
-          "pos": "TE",
-          "team": "IND",
-          "status": "Active"
         },
         {
           "id": "12526",
@@ -10288,6 +10960,13 @@
           "name": "Alvin Kamara",
           "pos": "RB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "id": "5001",
+          "name": "Dalton Schultz",
+          "pos": "TE",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -10354,34 +11033,34 @@
         }
       ],
       "players_points": {
-        "12512": 10.5,
-        "12518": 17.9,
-        "12526": 11.0,
-        "12527": 15.3,
-        "12711": 13.0,
-        "19": 0.0,
-        "4035": 14.5,
-        "5846": 6.5,
+        "12512": 5.9,
+        "12526": 34.0,
+        "12527": 9.4,
+        "12711": 12.0,
+        "19": 10.86,
+        "4035": 0.0,
+        "5001": 11.1,
+        "5846": 9.9,
         "5849": 0.0,
-        "6768": 12.82,
-        "7049": 17.1,
-        "7564": 0.0,
-        "7585": 29.68,
-        "8144": 22.4,
-        "9226": 41.5,
-        "KC": 0.0
+        "6768": 6.84,
+        "7049": 9.4,
+        "7564": 6.0,
+        "7585": 17.36,
+        "8144": 0.0,
+        "9226": 22.5,
+        "KC": 2.0
       }
     },
     {
       "matchup_id": 1,
       "roster_id": 5,
-      "points": 143.82,
+      "points": 145.1,
       "starters": [
         {
-          "id": "4943",
-          "name": "Sam Darnold",
+          "id": "6904",
+          "name": "Jalen Hurts",
           "pos": "QB",
-          "team": "SEA",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -10392,17 +11071,17 @@
           "status": "Active"
         },
         {
-          "id": "12534",
-          "name": "Kyle Monangai",
+          "id": "12529",
+          "name": "TreVeyon Henderson",
           "pos": "RB",
-          "team": "CHI",
+          "team": "NE",
           "status": "Active"
         },
         {
-          "id": "7569",
-          "name": "Nico Collins",
+          "id": "10229",
+          "name": "Rashee Rice",
           "pos": "WR",
-          "team": "HOU",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -10420,17 +11099,17 @@
           "status": "Active"
         },
         {
-          "id": "10236",
-          "name": "Dalton Kincaid",
+          "id": "12506",
+          "name": "Harold Fannin",
           "pos": "TE",
-          "team": "BUF",
+          "team": "CLE",
           "status": "Active"
         },
         {
-          "id": "3163",
-          "name": "Jared Goff",
+          "id": "8183",
+          "name": "Brock Purdy",
           "pos": "QB",
-          "team": "DET",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -10456,17 +11135,17 @@
           "status": "Active"
         },
         {
-          "id": "10236",
-          "name": "Dalton Kincaid",
-          "pos": "TE",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "id": "11635",
           "name": "Ladd McConkey",
           "pos": "WR",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "id": "11638",
+          "name": "Ricky Pearsall",
+          "pos": "WR",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -10491,17 +11170,17 @@
           "status": "Active"
         },
         {
+          "id": "12518",
+          "name": "Tyler Warren",
+          "pos": "TE",
+          "team": "IND",
+          "status": "Active"
+        },
+        {
           "id": "12529",
           "name": "TreVeyon Henderson",
           "pos": "RB",
           "team": "NE",
-          "status": "Active"
-        },
-        {
-          "id": "12534",
-          "name": "Kyle Monangai",
-          "pos": "RB",
-          "team": "CHI",
           "status": "Active"
         },
         {
@@ -10512,13 +11191,6 @@
           "status": "Active"
         },
         {
-          "id": "4943",
-          "name": "Sam Darnold",
-          "pos": "QB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "id": "5189",
           "name": "Eddy Pineiro",
           "pos": "K",
@@ -10526,10 +11198,10 @@
           "status": "Active"
         },
         {
-          "id": "7569",
-          "name": "Nico Collins",
-          "pos": "WR",
-          "team": "HOU",
+          "id": "6904",
+          "name": "Jalen Hurts",
+          "pos": "QB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -10547,6 +11219,13 @@
           "status": "Active"
         },
         {
+          "id": "8676",
+          "name": "Rashid Shaheed",
+          "pos": "WR",
+          "team": "NO",
+          "status": "Active"
+        },
+        {
           "id": "9509",
           "name": "Bijan Robinson",
           "pos": "RB",
@@ -10561,34 +11240,34 @@
         }
       ],
       "players_points": {
-        "10229": 0.0,
-        "10236": 5.7,
-        "11635": 21.7,
-        "12474": 16.1,
-        "12506": 8.4,
-        "12514": 24.5,
-        "12529": 29.0,
-        "12534": 8.8,
-        "3163": 26.8,
-        "4943": 5.92,
-        "5189": 1.0,
-        "7569": 23.6,
+        "10229": 9.8,
+        "11635": 4.3,
+        "11638": 1.0,
+        "12474": 6.1,
+        "12506": 4.6,
+        "12514": 9.0,
+        "12518": 0.0,
+        "12529": 32.3,
+        "3163": 13.1,
+        "5189": 12.0,
+        "6904": 14.5,
         "7611": 0.0,
-        "8183": 0.0,
-        "9509": 10.8,
-        "DEN": 15.0
+        "8183": 19.3,
+        "8676": 5.7,
+        "9509": 31.3,
+        "DEN": 8.0
       }
     },
     {
-      "matchup_id": 3,
+      "matchup_id": 4,
       "roster_id": 6,
-      "points": 129.9,
+      "points": 161.8,
       "starters": [
         {
-          "id": "12508",
-          "name": "Jaxson Dart",
+          "id": "3257",
+          "name": "Jacoby Brissett",
           "pos": "QB",
-          "team": "NYG",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -10599,10 +11278,10 @@
           "status": "Active"
         },
         {
-          "id": "11199",
-          "name": "Emari Demercado",
+          "id": "7588",
+          "name": "Javonte Williams",
           "pos": "RB",
-          "team": "ARI",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -10613,31 +11292,31 @@
           "status": "Active"
         },
         {
-          "id": "8167",
-          "name": "Christian Watson",
+          "id": "8148",
+          "name": "Jameson Williams",
           "pos": "WR",
-          "team": "GB",
+          "team": "DET",
           "status": "Active"
         },
         {
-          "id": "8142",
-          "name": "Alec Pierce",
+          "id": "12519",
+          "name": "Luther Burden",
           "pos": "WR",
-          "team": "IND",
+          "team": "CHI",
           "status": "Active"
         },
         {
-          "id": "12493",
-          "name": "Oronde Gadsden",
+          "id": "4217",
+          "name": "George Kittle",
           "pos": "TE",
-          "team": "LAC",
-          "status": "Active"
+          "team": "SF",
+          "status": "Inactive"
         },
         {
-          "id": "3257",
-          "name": "Jacoby Brissett",
+          "id": "7523",
+          "name": "Trevor Lawrence",
           "pos": "QB",
-          "team": "ARI",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -10648,20 +11327,13 @@
           "status": "Active"
         },
         {
-          "id": "CAR",
-          "name": "CAR D/ST",
+          "id": "ATL",
+          "name": "ATL D/ST",
           "pos": "DEF",
-          "team": "CAR"
+          "team": "ATL"
         }
       ],
       "players": [
-        {
-          "id": "11199",
-          "name": "Emari Demercado",
-          "pos": "RB",
-          "team": "ARI",
-          "status": "Active"
-        },
         {
           "id": "11627",
           "name": "Troy Franklin",
@@ -10691,10 +11363,10 @@
           "status": "Active"
         },
         {
-          "id": "12530",
-          "name": "Travis Hunter",
+          "id": "12519",
+          "name": "Luther Burden",
           "pos": "WR",
-          "team": "JAX",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -10761,43 +11433,42 @@
           "status": "Active"
         },
         {
-          "id": "8167",
-          "name": "Christian Watson",
+          "id": "8148",
+          "name": "Jameson Williams",
           "pos": "WR",
-          "team": "GB",
+          "team": "DET",
           "status": "Active"
         },
         {
-          "id": "CAR",
-          "name": "CAR D/ST",
+          "id": "ATL",
+          "name": "ATL D/ST",
           "pos": "DEF",
-          "team": "CAR"
+          "team": "ATL"
         }
       ],
       "players_points": {
-        "11199": 13.4,
-        "11627": 15.0,
-        "12493": 4.3,
+        "11627": 12.4,
+        "12493": 6.1,
         "12507": 0.0,
-        "12508": 26.28,
-        "12530": 0.0,
-        "3257": 19.42,
-        "4034": 17.6,
-        "4217": 23.4,
+        "12508": 0.0,
+        "12519": 5.7,
+        "3257": 25.88,
+        "4034": 35.1,
+        "4217": 24.7,
         "5927": 0.0,
-        "6650": 5.0,
-        "7523": 10.82,
-        "7588": 0.0,
-        "8110": 0.0,
-        "8142": 18.4,
-        "8167": 6.5,
-        "CAR": 4.0
+        "6650": 8.0,
+        "7523": 16.02,
+        "7588": 10.3,
+        "8110": 11.6,
+        "8142": 0.0,
+        "8148": 19.7,
+        "ATL": 4.0
       }
     },
     {
-      "matchup_id": 1,
+      "matchup_id": 2,
       "roster_id": 7,
-      "points": 120.4,
+      "points": 91.66,
       "starters": [
         {
           "id": "421",
@@ -10821,24 +11492,24 @@
           "status": "Active"
         },
         {
-          "id": "8112",
-          "name": "Drake London",
-          "pos": "WR",
-          "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "id": "10213",
-          "name": "Tre Tucker",
-          "pos": "WR",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "id": "8121",
           "name": "Romeo Doubs",
           "pos": "WR",
           "team": "GB",
+          "status": "Active"
+        },
+        {
+          "id": "7569",
+          "name": "Nico Collins",
+          "pos": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
+          "id": "12485",
+          "name": "Tez Johnson",
+          "pos": "WR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -10849,32 +11520,39 @@
           "status": "Active"
         },
         {
-          "id": "6904",
-          "name": "Jalen Hurts",
+          "id": "4943",
+          "name": "Sam Darnold",
           "pos": "QB",
-          "team": "PHI",
+          "team": "SEA",
           "status": "Active"
         },
         {
-          "id": "5230",
-          "name": "Michael Badgley",
+          "id": "11539",
+          "name": "Jake Bates",
           "pos": "K",
-          "team": null,
+          "team": "DET",
           "status": "Active"
         },
         {
-          "id": "CHI",
-          "name": "CHI D/ST",
+          "id": "GB",
+          "name": "GB D/ST",
           "pos": "DEF",
-          "team": "CHI"
+          "team": "GB"
         }
       ],
       "players": [
         {
-          "id": "10213",
-          "name": "Tre Tucker",
+          "id": "11539",
+          "name": "Jake Bates",
+          "pos": "K",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
+          "id": "12485",
+          "name": "Tez Johnson",
           "pos": "WR",
-          "team": "LV",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -10899,17 +11577,17 @@
           "status": "Active"
         },
         {
+          "id": "4943",
+          "name": "Sam Darnold",
+          "pos": "QB",
+          "team": "SEA",
+          "status": "Active"
+        },
+        {
           "id": "5022",
           "name": "Dallas Goedert",
           "pos": "TE",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "id": "5230",
-          "name": "Michael Badgley",
-          "pos": "K",
-          "team": null,
           "status": "Active"
         },
         {
@@ -10927,17 +11605,17 @@
           "status": "Active"
         },
         {
-          "id": "6904",
-          "name": "Jalen Hurts",
-          "pos": "QB",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "id": "7002",
           "name": "Juwan Johnson",
           "pos": "TE",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "id": "7569",
+          "name": "Nico Collins",
+          "pos": "WR",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -10969,42 +11647,35 @@
           "status": "Active"
         },
         {
-          "id": "8676",
-          "name": "Rashid Shaheed",
-          "pos": "WR",
-          "team": "NO",
-          "status": "Active"
-        },
-        {
-          "id": "CHI",
-          "name": "CHI D/ST",
+          "id": "GB",
+          "name": "GB D/ST",
           "pos": "DEF",
-          "team": "CHI"
+          "team": "GB"
         }
       ],
       "players_points": {
-        "10213": 5.5,
-        "12540": 0.0,
+        "11539": 4.0,
+        "12485": 1.6,
+        "12540": 3.4,
         "4018": 0.0,
-        "421": 26.9,
-        "5022": 8.3,
-        "5230": 6.0,
-        "6790": 14.8,
-        "6806": 9.4,
-        "6904": 12.02,
-        "7002": 19.2,
-        "8112": 25.4,
-        "8121": 2.38,
-        "8151": 8.0,
-        "8228": 11.1,
-        "8676": 5.98,
-        "CHI": 8.0
+        "421": 13.2,
+        "4943": 9.26,
+        "5022": 4.4,
+        "6790": 9.0,
+        "6806": 0.0,
+        "7002": 0.0,
+        "7569": 24.2,
+        "8112": 19.9,
+        "8121": 9.3,
+        "8151": 20.1,
+        "8228": 8.7,
+        "GB": 8.0
       }
     },
     {
       "matchup_id": 3,
       "roster_id": 8,
-      "points": 142.78,
+      "points": 109.08,
       "starters": [
         {
           "id": "4881",
@@ -11085,6 +11756,13 @@
           "status": "Active"
         },
         {
+          "id": "2306",
+          "name": "Jameis Winston",
+          "pos": "QB",
+          "team": "NYG",
+          "status": "Active"
+        },
+        {
           "id": "3198",
           "name": "Derrick Henry",
           "pos": "RB",
@@ -11117,20 +11795,6 @@
           "name": "Jakobi Meyers",
           "pos": "WR",
           "team": "LV",
-          "status": "Active"
-        },
-        {
-          "id": "6039",
-          "name": "Ty Johnson",
-          "pos": "RB",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
-          "id": "6783",
-          "name": "Jerry Jeudy",
-          "pos": "WR",
-          "team": "CLE",
           "status": "Active"
         },
         {
@@ -11197,29 +11861,28 @@
         }
       ],
       "players_points": {
-        "10219": 7.6,
-        "3198": 11.4,
+        "10219": 9.5,
+        "2306": 12.04,
+        "3198": 21.2,
         "4037": 0.0,
-        "4195": 4.0,
-        "4881": 16.64,
-        "5947": 7.1,
-        "6039": 4.6,
-        "6783": 19.8,
-        "6804": 7.84,
-        "7525": 16.9,
-        "7553": 5.8,
-        "8155": 19.5,
+        "4195": 11.0,
+        "4881": 6.72,
+        "5947": 11.4,
+        "6804": 17.66,
+        "7525": 1.8,
+        "7553": 3.4,
+        "8155": 8.4,
         "8205": 0.0,
-        "9488": 20.3,
-        "9493": 17.4,
-        "9753": 14.3,
-        "SEA": 23.0
+        "9488": 21.6,
+        "9493": 14.3,
+        "9753": 6.7,
+        "SEA": 3.0
       }
     },
     {
       "matchup_id": 5,
       "roster_id": 9,
-      "points": 124.8,
+      "points": 140.26,
       "starters": [
         {
           "id": "6797",
@@ -11250,17 +11913,17 @@
           "status": "Active"
         },
         {
+          "id": "8137",
+          "name": "George Pickens",
+          "pos": "WR",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
           "id": "5859",
           "name": "A.J. Brown",
           "pos": "WR",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "id": "5045",
-          "name": "Courtland Sutton",
-          "pos": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -11271,10 +11934,10 @@
           "status": "Active"
         },
         {
-          "id": "9756",
-          "name": "Jordan Addison",
-          "pos": "WR",
-          "team": "MIN",
+          "id": "2307",
+          "name": "Marcus Mariota",
+          "pos": "QB",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -11285,10 +11948,10 @@
           "status": "Active"
         },
         {
-          "id": "DET",
-          "name": "DET D/ST",
+          "id": "HOU",
+          "name": "HOU D/ST",
           "pos": "DEF",
-          "team": "DET"
+          "team": "HOU"
         }
       ],
       "players": [
@@ -11307,6 +11970,13 @@
           "status": "Active"
         },
         {
+          "id": "12545",
+          "name": "Tyler Shough",
+          "pos": "QB",
+          "team": "NO",
+          "status": "Active"
+        },
+        {
           "id": "2133",
           "name": "Davante Adams",
           "pos": "WR",
@@ -11314,10 +11984,10 @@
           "status": "Active"
         },
         {
-          "id": "2505",
-          "name": "Darren Waller",
-          "pos": "TE",
-          "team": "MIA",
+          "id": "2307",
+          "name": "Marcus Mariota",
+          "pos": "QB",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -11411,42 +12081,36 @@
         }
       ],
       "players_points": {
-        "11647": 17.8,
-        "11792": 9.0,
-        "2133": 19.7,
-        "2505": 0.0,
+        "11647": 3.2,
+        "11792": 5.0,
+        "12545": 0.0,
+        "2133": 7.1,
+        "2307": 16.42,
         "3451": 0.0,
-        "4866": 13.1,
-        "5045": 5.4,
-        "5859": 3.3,
+        "4866": 10.0,
+        "5045": 9.9,
+        "5859": 11.9,
         "6770": 0.0,
-        "6797": 14.7,
-        "8130": 28.7,
-        "8137": 0.0,
-        "8150": 22.4,
-        "9756": 6.5,
+        "6797": 4.34,
+        "8130": 28.5,
+        "8137": 30.4,
+        "8150": 16.6,
+        "9756": 10.0,
         "9758": 0.0,
         "DET": 2.0,
-        "HOU": 16.0
+        "HOU": 10.0
       }
     },
     {
-      "matchup_id": 4,
+      "matchup_id": 5,
       "roster_id": 10,
-      "points": 141.16,
+      "points": 105.54,
       "starters": [
         {
-          "id": "11565",
-          "name": "J.J. McCarthy",
+          "id": "4046",
+          "name": "Patrick Mahomes",
           "pos": "QB",
-          "team": "MIN",
-          "status": "Active"
-        },
-        {
-          "id": "6813",
-          "name": "Jonathan Taylor",
-          "pos": "RB",
-          "team": "IND",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -11457,6 +12121,13 @@
           "status": "Active"
         },
         {
+          "id": "12489",
+          "name": "RJ Harvey",
+          "pos": "RB",
+          "team": "DEN",
+          "status": "Active"
+        },
+        {
           "id": "7547",
           "name": "Amon-Ra St. Brown",
           "pos": "WR",
@@ -11464,10 +12135,10 @@
           "status": "Active"
         },
         {
-          "id": "8146",
-          "name": "Garrett Wilson",
+          "id": "9754",
+          "name": "Quentin Johnston",
           "pos": "WR",
-          "team": "NYJ",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -11478,17 +12149,17 @@
           "status": "Active"
         },
         {
-          "id": "10859",
-          "name": "Sam LaPorta",
+          "id": "1339",
+          "name": "Zach Ertz",
           "pos": "TE",
-          "team": "DET",
+          "team": "WAS",
           "status": "Active"
         },
         {
-          "id": "96",
-          "name": "Aaron Rodgers",
+          "id": "11565",
+          "name": "J.J. McCarthy",
           "pos": "QB",
-          "team": "PIT",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -11499,10 +12170,10 @@
           "status": "Active"
         },
         {
-          "id": "TB",
-          "name": "TB D/ST",
+          "id": "LAR",
+          "name": "LAR D/ST",
           "pos": "DEF",
-          "team": "TB"
+          "team": "LAR"
         }
       ],
       "players": [
@@ -11518,6 +12189,13 @@
           "name": "J.J. McCarthy",
           "pos": "QB",
           "team": "MIN",
+          "status": "Active"
+        },
+        {
+          "id": "11624",
+          "name": "Xavier Worthy",
+          "pos": "WR",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -11563,6 +12241,13 @@
           "status": "Active"
         },
         {
+          "id": "5970",
+          "name": "Greg Dortch",
+          "pos": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "id": "6813",
           "name": "Jonathan Taylor",
           "pos": "RB",
@@ -11605,28 +12290,30 @@
           "status": "Active"
         },
         {
-          "id": "TB",
-          "name": "TB D/ST",
+          "id": "LAR",
+          "name": "LAR D/ST",
           "pos": "DEF",
-          "team": "TB"
+          "team": "LAR"
         }
       ],
       "players_points": {
-        "10859": 10.3,
-        "11565": 16.72,
-        "11628": 14.3,
-        "12489": 5.2,
-        "1339": 9.4,
-        "1945": 5.0,
-        "2449": 15.6,
-        "4046": 0.0,
-        "6813": 50.6,
-        "7543": 15.7,
-        "7547": 16.8,
+        "10859": 0.0,
+        "11565": 8.0,
+        "11624": 5.5,
+        "11628": 0.0,
+        "12489": 8.0,
+        "1339": 8.2,
+        "1945": 10.0,
+        "2449": 20.5,
+        "4046": 15.34,
+        "5970": 23.8,
+        "6813": 0.0,
+        "7543": 19.3,
+        "7547": 6.2,
         "8146": 0.0,
-        "96": 8.44,
-        "9754": 9.2,
-        "TB": 2.0
+        "96": 9.44,
+        "9754": 0.0,
+        "LAR": 10.0
       }
     }
   ],
@@ -23802,6 +24489,1293 @@
           "status_updated": 1762499677276,
           "waiver_budget": []
         }
+      ],
+      "11": [
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Unfortunately, your roster will have too many players after this transaction."
+          },
+          "created": 1763535001759,
+          "settings": {
+            "priority": 4,
+            "seq": 11,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296763421802385408",
+          "adds": {
+            "12486": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Unfortunately, your roster will have too many players after this transaction."
+          },
+          "created": 1763534998219,
+          "settings": {
+            "priority": 3,
+            "seq": 10,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296763406954553344",
+          "adds": {
+            "827": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763534952085,
+          "settings": {
+            "priority": 2,
+            "seq": 7,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296763213454532608",
+          "adds": {
+            "9487": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763534933124,
+          "settings": {
+            "priority": 1,
+            "seq": 6,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296763133930504192",
+          "adds": {
+            "9228": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763534921694,
+          "settings": {
+            "priority": 0,
+            "seq": 5,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296763085985452032",
+          "adds": {
+            "8167": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Unfortunately, your roster will have too many players after this transaction."
+          },
+          "created": 1763534714146,
+          "settings": {
+            "priority": 14,
+            "seq": 22,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296762215461838848",
+          "adds": {
+            "12486": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763534694278,
+          "settings": {
+            "priority": 13,
+            "seq": 20,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296762132133613568",
+          "adds": {
+            "827": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": {
+            "7523": 6
+          },
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763534681187,
+          "settings": {
+            "priority": 6,
+            "seq": 13,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296762077225963520",
+          "adds": {
+            "9228": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763525433460,
+          "settings": {
+            "priority": 12,
+            "seq": 19,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296723289451790336",
+          "adds": {
+            "9487": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763525096541,
+          "settings": {
+            "priority": 11,
+            "seq": 18,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296721876306907136",
+          "adds": {
+            "2020": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763525031392,
+          "settings": {
+            "priority": 10,
+            "seq": 17,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296721603052208128",
+          "adds": {
+            "CLE": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763524301225,
+          "settings": {
+            "priority": 9,
+            "seq": 16,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296718540509818881",
+          "adds": {
+            "8167": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763521016099,
+          "settings": {
+            "priority": 8,
+            "seq": 15,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296704761692712960",
+          "adds": {
+            "CLE": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763504861592,
+          "settings": {
+            "seq": 3,
+            "waiver_bid": 2
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1296637004783562752",
+          "adds": {
+            "5012": 10
+          },
+          "consenter_ids": [
+            10
+          ],
+          "drops": null,
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763504852649,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1296636967269720064",
+          "adds": null,
+          "consenter_ids": [
+            10
+          ],
+          "drops": {
+            "11624": 10
+          },
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763504852649,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763482396392,
+          "settings": {
+            "seq": 9,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "1009962350948057088",
+          "transaction_id": "1296542778901143552",
+          "adds": {
+            "2020": 7
+          },
+          "consenter_ids": [
+            7
+          ],
+          "drops": {
+            "11539": 7
+          },
+          "roster_ids": [
+            7
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763481892807,
+          "settings": {
+            "seq": 1,
+            "waiver_bid": 8
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1296540666716753920",
+          "adds": {
+            "9228": 9
+          },
+          "consenter_ids": [
+            9
+          ],
+          "drops": null,
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763481806232,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1296540303594909696",
+          "adds": null,
+          "consenter_ids": [
+            9
+          ],
+          "drops": {
+            "11792": 9
+          },
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763481806232,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763481713727,
+          "settings": {
+            "seq": 0,
+            "waiver_bid": 11
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1296539915600818176",
+          "adds": {
+            "12545": 9
+          },
+          "consenter_ids": [
+            9
+          ],
+          "drops": null,
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Unfortunately, your roster will have too many players after this transaction."
+          },
+          "created": 1763481100594,
+          "settings": {
+            "seq": 21,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "725566519089672192",
+          "transaction_id": "1296537343930437632",
+          "adds": {
+            "LV": 5
+          },
+          "consenter_ids": [
+            5
+          ],
+          "drops": null,
+          "roster_ids": [
+            5
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763481053443,
+          "settings": {
+            "seq": 8,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "725566519089672192",
+          "transaction_id": "1296537146164809728",
+          "adds": {
+            "CLE": 5
+          },
+          "consenter_ids": [
+            5
+          ],
+          "drops": {
+            "12506": 5
+          },
+          "roster_ids": [
+            5
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763469524214,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1296488789077667840",
+          "adds": null,
+          "consenter_ids": [
+            9
+          ],
+          "drops": {
+            "2307": 9
+          },
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763469524214,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763467945831,
+          "settings": {
+            "seq": 2,
+            "waiver_bid": 7
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "575341095693197312",
+          "transaction_id": "1296482168855367680",
+          "adds": {
+            "8167": 1
+          },
+          "consenter_ids": [
+            1
+          ],
+          "drops": null,
+          "roster_ids": [
+            1
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763394479517,
+          "settings": {
+            "priority": 5,
+            "seq": 12,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296174028800688128",
+          "adds": {
+            "8167": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763394452102,
+          "settings": {
+            "priority": 7,
+            "seq": 14,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "871993574424784896",
+          "transaction_id": "1296173913813811200",
+          "adds": {
+            "9228": 6
+          },
+          "consenter_ids": [
+            6
+          ],
+          "drops": null,
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763317337169,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "548654576695062528",
+          "transaction_id": "1295850470346067968",
+          "adds": {
+            "10213": 2
+          },
+          "consenter_ids": [
+            2
+          ],
+          "drops": null,
+          "roster_ids": [
+            2
+          ],
+          "status_updated": 1763317337169,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763314304782,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "604462920029495296",
+          "transaction_id": "1295837751588974592",
+          "adds": {
+            "LAC": 3
+          },
+          "consenter_ids": [
+            3
+          ],
+          "drops": {
+            "BUF": 3
+          },
+          "roster_ids": [
+            3
+          ],
+          "status_updated": 1763314304782,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763312467158,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1295830044035276800",
+          "adds": {
+            "5970": 10
+          },
+          "consenter_ids": [
+            10
+          ],
+          "drops": {
+            "11637": 10
+          },
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763312467158,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763310536033,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "575341095693197312",
+          "transaction_id": "1295821944314146816",
+          "adds": {
+            "PHI": 1
+          },
+          "consenter_ids": [
+            1
+          ],
+          "drops": null,
+          "roster_ids": [
+            1
+          ],
+          "status_updated": 1763310536033,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763171954839,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1295240692653625345",
+          "adds": {
+            "LAR": 10
+          },
+          "consenter_ids": [
+            10
+          ],
+          "drops": {
+            "TB": 10
+          },
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763171954839,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763171219201,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1295237607164215296",
+          "adds": {
+            "11637": 10
+          },
+          "consenter_ids": [
+            10
+          ],
+          "drops": null,
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763171219201,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763168894499,
+          "settings": {
+            "seq": 0,
+            "waiver_bid": 5
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "575341095693197312",
+          "transaction_id": "1295227856657338368",
+          "adds": {
+            "10236": 1
+          },
+          "consenter_ids": [
+            1
+          ],
+          "drops": {
+            "9487": 1
+          },
+          "roster_ids": [
+            1
+          ],
+          "status_updated": 1763273689769,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763168454085,
+          "settings": {
+            "seq": 4,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "1009962350948057088",
+          "transaction_id": "1295226009427144704",
+          "adds": {
+            "4177": 7
+          },
+          "consenter_ids": [
+            7
+          ],
+          "drops": null,
+          "roster_ids": [
+            7
+          ],
+          "status_updated": 1763539513040,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "trade",
+          "metadata": null,
+          "created": 1763168440852,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "575341095693197312",
+          "transaction_id": "1295225953923895296",
+          "adds": {
+            "5892": 2,
+            "9997": 1
+          },
+          "consenter_ids": [
+            1,
+            2
+          ],
+          "drops": {
+            "5892": 1,
+            "9997": 2
+          },
+          "roster_ids": [
+            1,
+            2
+          ],
+          "status_updated": 1763168599329,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763084846664,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1294875334490980352",
+          "adds": {
+            "2307": 9
+          },
+          "consenter_ids": [
+            9
+          ],
+          "drops": null,
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763084846664,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763084808267,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "550718600536322048",
+          "transaction_id": "1294875173438099456",
+          "adds": null,
+          "consenter_ids": [
+            9
+          ],
+          "drops": {
+            "2505": 9
+          },
+          "roster_ids": [
+            9
+          ],
+          "status_updated": 1763084808267,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "trade",
+          "metadata": null,
+          "created": 1763083665985,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "725566519089672192",
+          "transaction_id": "1294870382360162304",
+          "adds": {
+            "4943": 7,
+            "6904": 5,
+            "7569": 7,
+            "8676": 5
+          },
+          "consenter_ids": [
+            5,
+            7
+          ],
+          "drops": {
+            "4943": 5,
+            "6904": 7,
+            "7569": 5,
+            "8676": 7
+          },
+          "roster_ids": [
+            5,
+            7
+          ],
+          "status_updated": 1763083745398,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "waiver",
+          "metadata": {
+            "notes": "Your waiver claim was processed successfully!"
+          },
+          "created": 1763075424961,
+          "settings": {
+            "seq": 0,
+            "waiver_bid": 3
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "725566519089672192",
+          "transaction_id": "1294835817004421120",
+          "adds": {
+            "12518": 5
+          },
+          "consenter_ids": [
+            5
+          ],
+          "drops": {
+            "10236": 5
+          },
+          "roster_ids": [
+            5
+          ],
+          "status_updated": 1763104477866,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763075397576,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "725566519089672192",
+          "transaction_id": "1294835702143385600",
+          "adds": null,
+          "consenter_ids": [
+            5
+          ],
+          "drops": {
+            "12534": 5
+          },
+          "roster_ids": [
+            5
+          ],
+          "status_updated": 1763075397576,
+          "waiver_budget": []
+        },
+        {
+          "status": "failed",
+          "type": "waiver",
+          "metadata": {
+            "notes": "This player was claimed by another owner."
+          },
+          "created": 1763043293511,
+          "settings": {
+            "seq": 1,
+            "waiver_bid": 0
+          },
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "548654576695062528",
+          "transaction_id": "1294701047935139840",
+          "adds": {
+            "12518": 2
+          },
+          "consenter_ids": [
+            2
+          ],
+          "drops": null,
+          "roster_ids": [
+            2
+          ],
+          "status_updated": 1763104477866,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763043070973,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "548654576695062528",
+          "transaction_id": "1294700114538958848",
+          "adds": {
+            "10232": 2
+          },
+          "consenter_ids": [
+            2
+          ],
+          "drops": null,
+          "roster_ids": [
+            2
+          ],
+          "status_updated": 1763043070973,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763038207638,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "575341095693197312",
+          "transaction_id": "1294679716237709312",
+          "adds": null,
+          "consenter_ids": [
+            1
+          ],
+          "drops": {
+            "IND": 1
+          },
+          "roster_ids": [
+            1
+          ],
+          "status_updated": 1763038207638,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1763011801939,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "549276022721581056",
+          "transaction_id": "1294568962708742146",
+          "adds": {
+            "11624": 10
+          },
+          "consenter_ids": [
+            10
+          ],
+          "drops": null,
+          "roster_ids": [
+            10
+          ],
+          "status_updated": 1763011801939,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1762961861550,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "995738373279010816",
+          "transaction_id": "1294359497531207680",
+          "adds": {
+            "2306": 8
+          },
+          "consenter_ids": [
+            8
+          ],
+          "drops": null,
+          "roster_ids": [
+            8
+          ],
+          "status_updated": 1762961861550,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1762961848072,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "995738373279010816",
+          "transaction_id": "1294359441000402944",
+          "adds": null,
+          "consenter_ids": [
+            8
+          ],
+          "drops": {
+            "6783": 8
+          },
+          "roster_ids": [
+            8
+          ],
+          "status_updated": 1762961848072,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1762961367292,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "995738373279010816",
+          "transaction_id": "1294357424467111936",
+          "adds": null,
+          "consenter_ids": [
+            8
+          ],
+          "drops": {
+            "6039": 8
+          },
+          "roster_ids": [
+            8
+          ],
+          "status_updated": 1762961367292,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1762953280431,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "1009962350948057088",
+          "transaction_id": "1294323505713651712",
+          "adds": {
+            "GB": 7
+          },
+          "consenter_ids": [
+            7
+          ],
+          "drops": {
+            "CHI": 7
+          },
+          "roster_ids": [
+            7
+          ],
+          "status_updated": 1762953280431,
+          "waiver_budget": []
+        },
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1762953176535,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "1009962350948057088",
+          "transaction_id": "1294323069942243328",
+          "adds": {
+            "11539": 7
+          },
+          "consenter_ids": [
+            7
+          ],
+          "drops": {
+            "5230": 7
+          },
+          "roster_ids": [
+            7
+          ],
+          "status_updated": 1762953176535,
+          "waiver_budget": []
+        }
       ]
     }
   },
@@ -27784,544 +29758,22 @@
     }
   },
   "players_index": {
-    "4881": {
-      "name": "Lamar Jackson",
+    "7585": {
+      "name": "Davis Mills",
       "pos": "QB",
-      "team": "BAL",
-      "status": "Active"
-    },
-    "4454": {
-      "name": "Kendrick Bourne",
-      "pos": "WR",
-      "team": "SF",
-      "status": "Active"
-    },
-    "5872": {
-      "name": "Deebo Samuel",
-      "pos": "WR",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "8154": {
-      "name": "Brian Robinson",
-      "pos": "RB",
-      "team": "SF",
-      "status": "Active"
-    },
-    "11627": {
-      "name": "Troy Franklin",
-      "pos": "WR",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "12506": {
-      "name": "Harold Fannin",
-      "pos": "TE",
-      "team": "CLE",
-      "status": "Active"
-    },
-    "4950": {
-      "name": "Christian Kirk",
-      "pos": "WR",
       "team": "HOU",
       "status": "Active"
     },
-    "11635": {
-      "name": "Ladd McConkey",
-      "pos": "WR",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "2449": {
-      "name": "Stefon Diggs",
-      "pos": "WR",
-      "team": "NE",
-      "status": "Active"
-    },
-    "4663": {
-      "name": "Austin Ekeler",
+    "8132": {
+      "name": "Tyler Allgeier",
       "pos": "RB",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "5230": {
-      "name": "Michael Badgley",
-      "pos": "K",
-      "team": null,
-      "status": "Active"
-    },
-    "11563": {
-      "name": "Bo Nix",
-      "pos": "QB",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "3294": {
-      "name": "Dak Prescott",
-      "pos": "QB",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "3198": {
-      "name": "Derrick Henry",
-      "pos": "RB",
-      "team": "BAL",
-      "status": "Active"
-    },
-    "11626": {
-      "name": "Xavier Legette",
-      "pos": "WR",
-      "team": "CAR",
-      "status": "Active"
-    },
-    "12533": {
-      "name": "Jacory Croskey-Merritt",
-      "pos": "RB",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "7002": {
-      "name": "Juwan Johnson",
-      "pos": "TE",
-      "team": "NO",
-      "status": "Active"
-    },
-    "7553": {
-      "name": "Kyle Pitts",
-      "pos": "TE",
       "team": "ATL",
       "status": "Active"
     },
-    "11655": {
-      "name": "Tyrone Tracy",
+    "12469": {
+      "name": "Dylan Sampson",
       "pos": "RB",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "9500": {
-      "name": "Josh Downs",
-      "pos": "WR",
-      "team": "IND",
-      "status": "Active"
-    },
-    "11631": {
-      "name": "Brian Thomas",
-      "pos": "WR",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "3200": {
-      "name": "Sterling Shepard",
-      "pos": "WR",
-      "team": "TB",
-      "status": "Active"
-    },
-    "4046": {
-      "name": "Patrick Mahomes",
-      "pos": "QB",
-      "team": "KC",
-      "status": "Active"
-    },
-    "3321": {
-      "name": "Tyreek Hill",
-      "pos": "WR",
-      "team": "MIA",
-      "status": "Active"
-    },
-    "5848": {
-      "name": "Hollywood Brown",
-      "pos": "WR",
-      "team": "KC",
-      "status": "Active"
-    },
-    "12484": {
-      "name": "Jayden Higgins",
-      "pos": "WR",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "4137": {
-      "name": "James Conner",
-      "pos": "RB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "1339": {
-      "name": "Zach Ertz",
-      "pos": "TE",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "10229": {
-      "name": "Rashee Rice",
-      "pos": "WR",
-      "team": "KC",
-      "status": "Active"
-    },
-    "5927": {
-      "name": "Terry McLaurin",
-      "pos": "WR",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "10444": {
-      "name": "Cedric Tillman",
-      "pos": "WR",
       "team": "CLE",
-      "status": "Active"
-    },
-    "12504": {
-      "name": "Kaleb Johnson",
-      "pos": "RB",
-      "team": "PIT",
-      "status": "Active"
-    },
-    "7594": {
-      "name": "Chuba Hubbard",
-      "pos": "RB",
-      "team": "CAR",
-      "status": "Active"
-    },
-    "4037": {
-      "name": "Chris Godwin",
-      "pos": "WR",
-      "team": "TB",
-      "status": "Inactive"
-    },
-    "7611": {
-      "name": "Rhamondre Stevenson",
-      "pos": "RB",
-      "team": "NE",
-      "status": "Active"
-    },
-    "1373": {
-      "name": "Geno Smith",
-      "pos": "QB",
-      "team": "LV",
-      "status": "Active"
-    },
-    "11647": {
-      "name": "Kimani Vidal",
-      "pos": "RB",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "12476": {
-      "name": "Devin Neal",
-      "pos": "RB",
-      "team": "NO",
-      "status": "Active"
-    },
-    "3214": {
-      "name": "Hunter Henry",
-      "pos": "TE",
-      "team": "NE",
-      "status": "Active"
-    },
-    "5012": {
-      "name": "Mark Andrews",
-      "pos": "TE",
-      "team": "BAL",
-      "status": "Active"
-    },
-    "12530": {
-      "name": "Travis Hunter",
-      "pos": "WR",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "10236": {
-      "name": "Dalton Kincaid",
-      "pos": "TE",
-      "team": "BUF",
-      "status": "Active"
-    },
-    "12527": {
-      "name": "Ashton Jeanty",
-      "pos": "RB",
-      "team": "LV",
-      "status": "Active"
-    },
-    "9224": {
-      "name": "Chase Brown",
-      "pos": "RB",
-      "team": "CIN",
-      "status": "Active"
-    },
-    "11628": {
-      "name": "Marvin Harrison",
-      "pos": "WR",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "4199": {
-      "name": "Aaron Jones",
-      "pos": "RB",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "4066": {
-      "name": "Evan Engram",
-      "pos": "TE",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "11533": {
-      "name": "Brandon Aubrey",
-      "pos": "K",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "9754": {
-      "name": "Quentin Johnston",
-      "pos": "WR",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "1433": {
-      "name": "Brandon McManus",
-      "pos": "K",
-      "team": "GB",
-      "status": "Active"
-    },
-    "2505": {
-      "name": "Darren Waller",
-      "pos": "TE",
-      "team": "MIA",
-      "status": "Active"
-    },
-    "8126": {
-      "name": "Wan'Dale Robinson",
-      "pos": "WR",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "4195": {
-      "name": "Jake Elliott",
-      "pos": "K",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "8155": {
-      "name": "Breece Hall",
-      "pos": "RB",
-      "team": "NYJ",
-      "status": "Active"
-    },
-    "9997": {
-      "name": "Zay Flowers",
-      "pos": "WR",
-      "team": "BAL",
-      "status": "Active"
-    },
-    "12711": {
-      "name": "Tyler Loop",
-      "pos": "K",
-      "team": "BAL",
-      "status": "Active"
-    },
-    "4034": {
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "team": "SF",
-      "status": "Active"
-    },
-    "8676": {
-      "name": "Rashid Shaheed",
-      "pos": "WR",
-      "team": "NO",
-      "status": "Active"
-    },
-    "8205": {
-      "name": "Isiah Pacheco",
-      "pos": "RB",
-      "team": "KC",
-      "status": "Active"
-    },
-    "9508": {
-      "name": "Tyjae Spears",
-      "pos": "RB",
-      "team": "TEN",
-      "status": "Inactive"
-    },
-    "12508": {
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "12534": {
-      "name": "Kyle Monangai",
-      "pos": "RB",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "5045": {
-      "name": "Courtland Sutton",
-      "pos": "WR",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "10213": {
-      "name": "Tre Tucker",
-      "pos": "WR",
-      "team": "LV",
-      "status": "Active"
-    },
-    "12507": {
-      "name": "Omarion Hampton",
-      "pos": "RB",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "12526": {
-      "name": "Tetairoa McMillan",
-      "pos": "WR",
-      "team": "CAR",
-      "status": "Active"
-    },
-    "12455": {
-      "name": "Brashard Smith",
-      "pos": "RB",
-      "team": "KC",
-      "status": "Active"
-    },
-    "7528": {
-      "name": "Najee Harris",
-      "pos": "RB",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "11564": {
-      "name": "Drake Maye",
-      "pos": "QB",
-      "team": "NE",
-      "status": "Active"
-    },
-    "8147": {
-      "name": "John Metchie",
-      "pos": "WR",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "8146": {
-      "name": "Garrett Wilson",
-      "pos": "WR",
-      "team": "NYJ",
-      "status": "Active"
-    },
-    "8142": {
-      "name": "Alec Pierce",
-      "pos": "WR",
-      "team": "IND",
-      "status": "Active"
-    },
-    "7588": {
-      "name": "Javonte Williams",
-      "pos": "RB",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "10859": {
-      "name": "Sam LaPorta",
-      "pos": "TE",
-      "team": "DET",
-      "status": "Active"
-    },
-    "12474": {
-      "name": "Woody Marks",
-      "pos": "RB",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "11624": {
-      "name": "Xavier Worthy",
-      "pos": "WR",
-      "team": "KC",
-      "status": "Active"
-    },
-    "11589": {
-      "name": "Trey Benson",
-      "pos": "RB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "11620": {
-      "name": "Rome Odunze",
-      "pos": "WR",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "6768": {
-      "name": "Tua Tagovailoa",
-      "pos": "QB",
-      "team": "MIA",
-      "status": "Active"
-    },
-    "9494": {
-      "name": "Marvin Mims",
-      "pos": "WR",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "6111": {
-      "name": "Jake Browning",
-      "pos": "QB",
-      "team": "CIN",
-      "status": "Active"
-    },
-    "4098": {
-      "name": "Kareem Hunt",
-      "pos": "RB",
-      "team": "KC",
-      "status": "Active"
-    },
-    "12524": {
-      "name": "Shedeur Sanders",
-      "pos": "QB",
-      "team": "CLE",
-      "status": "Active"
-    },
-    "6528": {
-      "name": "Joey Slye",
-      "pos": "K",
-      "team": "TEN",
-      "status": "Active"
-    },
-    "8698": {
-      "name": "Jake Tonges",
-      "pos": "TE",
-      "team": "SF",
-      "status": "Active"
-    },
-    "11604": {
-      "name": "Brock Bowers",
-      "pos": "TE",
-      "team": "LV",
-      "status": "Active"
-    },
-    "6806": {
-      "name": "J.K. Dobbins",
-      "pos": "RB",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "4217": {
-      "name": "George Kittle",
-      "pos": "TE",
-      "team": "SF",
-      "status": "Inactive"
-    },
-    "1945": {
-      "name": "Chris Boswell",
-      "pos": "K",
-      "team": "PIT",
-      "status": "Active"
-    },
-    "8151": {
-      "name": "Kenneth Walker",
-      "pos": "RB",
-      "team": "SEA",
       "status": "Active"
     },
     "8408": {
@@ -28330,44 +29782,8 @@
       "team": "MIN",
       "status": "Active"
     },
-    "7591": {
-      "name": "Justin Fields",
-      "pos": "QB",
-      "team": "NYJ",
-      "status": "Active"
-    },
-    "6803": {
-      "name": "Brandon Aiyuk",
-      "pos": "WR",
-      "team": "SF",
-      "status": "Active"
-    },
-    "2747": {
-      "name": "Jason Myers",
-      "pos": "K",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "5844": {
-      "name": "T.J. Hockenson",
-      "pos": "TE",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "12185": {
-      "name": "Spencer Shrader",
-      "pos": "K",
-      "team": "IND",
-      "status": "Active"
-    },
-    "6039": {
-      "name": "Ty Johnson",
-      "pos": "RB",
-      "team": "BUF",
-      "status": "Active"
-    },
-    "9228": {
-      "name": "Bryce Young",
+    "829": {
+      "name": "Andy Dalton",
       "pos": "QB",
       "team": "CAR",
       "status": "Active"
@@ -28378,347 +29794,10 @@
       "team": "DET",
       "status": "Active"
     },
-    "8111": {
-      "name": "Cade Otton",
+    "10236": {
+      "name": "Dalton Kincaid",
       "pos": "TE",
-      "team": "TB",
-      "status": "Active"
-    },
-    "8121": {
-      "name": "Romeo Doubs",
-      "pos": "WR",
-      "team": "GB",
-      "status": "Active"
-    },
-    "5850": {
-      "name": "Josh Jacobs",
-      "pos": "RB",
-      "team": "GB",
-      "status": "Active"
-    },
-    "8112": {
-      "name": "Drake London",
-      "pos": "WR",
-      "team": "ATL",
-      "status": "Active"
-    },
-    "4983": {
-      "name": "DJ Moore",
-      "pos": "WR",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "12469": {
-      "name": "Dylan Sampson",
-      "pos": "RB",
-      "team": "CLE",
-      "status": "Active"
-    },
-    "11566": {
-      "name": "Jayden Daniels",
-      "pos": "QB",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "8167": {
-      "name": "Christian Watson",
-      "pos": "WR",
-      "team": "GB",
-      "status": "Active"
-    },
-    "6904": {
-      "name": "Jalen Hurts",
-      "pos": "QB",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "12540": {
-      "name": "Chimere Dike",
-      "pos": "WR",
-      "team": "TEN",
-      "status": "Active"
-    },
-    "2020": {
-      "name": "Cairo Santos",
-      "pos": "K",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "7523": {
-      "name": "Trevor Lawrence",
-      "pos": "QB",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "5189": {
-      "name": "Eddy Pineiro",
-      "pos": "K",
-      "team": "SF",
-      "status": "Active"
-    },
-    "9758": {
-      "name": "C.J. Stroud",
-      "pos": "QB",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "11786": {
-      "name": "Cam Little",
-      "pos": "K",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "5846": {
-      "name": "DK Metcalf",
-      "pos": "WR",
-      "team": "PIT",
-      "status": "Active"
-    },
-    "7564": {
-      "name": "Ja'Marr Chase",
-      "pos": "WR",
-      "team": "CIN",
-      "status": "Active"
-    },
-    "12519": {
-      "name": "Luther Burden",
-      "pos": "WR",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "10219": {
-      "name": "Chris Rodriguez",
-      "pos": "RB",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "6083": {
-      "name": "Matt Gay",
-      "pos": "K",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "11650": {
-      "name": "Luke McCaffrey",
-      "pos": "WR",
-      "team": "WAS",
-      "status": "Active"
-    },
-    "8150": {
-      "name": "Kyren Williams",
-      "pos": "RB",
-      "team": "LAR",
-      "status": "Active"
-    },
-    "6149": {
-      "name": "Darius Slayton",
-      "pos": "WR",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "6797": {
-      "name": "Justin Herbert",
-      "pos": "QB",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "12498": {
-      "name": "Mason Taylor",
-      "pos": "TE",
-      "team": "NYJ",
-      "status": "Active"
-    },
-    "8144": {
-      "name": "Chris Olave",
-      "pos": "WR",
-      "team": "NO",
-      "status": "Active"
-    },
-    "2133": {
-      "name": "Davante Adams",
-      "pos": "WR",
-      "team": "LAR",
-      "status": "Active"
-    },
-    "11603": {
-      "name": "AJ Barner",
-      "pos": "TE",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "7021": {
-      "name": "Rico Dowdle",
-      "pos": "RB",
-      "team": "CAR",
-      "status": "Active"
-    },
-    "12457": {
-      "name": "Jaydon Blue",
-      "pos": "RB",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "1466": {
-      "name": "Travis Kelce",
-      "pos": "TE",
-      "team": "KC",
-      "status": "Active"
-    },
-    "829": {
-      "name": "Andy Dalton",
-      "pos": "QB",
-      "team": "CAR",
-      "status": "Active"
-    },
-    "11792": {
-      "name": "Will Reichard",
-      "pos": "K",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "9488": {
-      "name": "Jaxon Smith-Njigba",
-      "pos": "WR",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "6770": {
-      "name": "Joe Burrow",
-      "pos": "QB",
-      "team": "CIN",
-      "status": "Active"
-    },
-    "11565": {
-      "name": "J.J. McCarthy",
-      "pos": "QB",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "1234": {
-      "name": "Russell Wilson",
-      "pos": "QB",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "12713": {
-      "name": "Andy Borregales",
-      "pos": "K",
-      "team": "NE",
-      "status": "Active"
-    },
-    "7569": {
-      "name": "Nico Collins",
-      "pos": "WR",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "12481": {
-      "name": "Cam Skattebo",
-      "pos": "RB",
-      "team": "NYG",
-      "status": "Active"
-    },
-    "5870": {
-      "name": "Daniel Jones",
-      "pos": "QB",
-      "team": "IND",
-      "status": "Active"
-    },
-    "8917": {
-      "name": "KaVontae Turpin",
-      "pos": "WR",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "6650": {
-      "name": "Chase McLaughlin",
-      "pos": "K",
-      "team": "TB",
-      "status": "Active"
-    },
-    "7525": {
-      "name": "DeVonta Smith",
-      "pos": "WR",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "4866": {
-      "name": "Saquon Barkley",
-      "pos": "RB",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "6794": {
-      "name": "Justin Jefferson",
-      "pos": "WR",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "7607": {
-      "name": "Michael Carter",
-      "pos": "RB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "0": {},
-    "11638": {
-      "name": "Ricky Pearsall",
-      "pos": "WR",
-      "team": "SF",
-      "status": "Active"
-    },
-    "9226": {
-      "name": "De'Von Achane",
-      "pos": "RB",
-      "team": "MIA",
-      "status": "Active"
-    },
-    "3257": {
-      "name": "Jacoby Brissett",
-      "pos": "QB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "12489": {
-      "name": "RJ Harvey",
-      "pos": "RB",
-      "team": "DEN",
-      "status": "Active"
-    },
-    "7527": {
-      "name": "Mac Jones",
-      "pos": "QB",
-      "team": "SF",
-      "status": "Active"
-    },
-    "8259": {
-      "name": "Cameron Dicker",
-      "pos": "K",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "11560": {
-      "name": "Caleb Williams",
-      "pos": "QB",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "12485": {
-      "name": "Tez Johnson",
-      "pos": "WR",
-      "team": "TB",
-      "status": "Active"
-    },
-    "4227": {
-      "name": "Harrison Butker",
-      "pos": "K",
-      "team": "KC",
-      "status": "Active"
-    },
-    "9487": {
-      "name": "Parker Washington",
-      "pos": "WR",
-      "team": "JAX",
+      "team": "BUF",
       "status": "Active"
     },
     "4035": {
@@ -28727,28 +29806,154 @@
       "team": "NO",
       "status": "Active"
     },
-    "11559": {
-      "name": "Michael Penix",
-      "pos": "QB",
-      "team": "ATL",
-      "status": "Active"
-    },
-    "9221": {
-      "name": "Jahmyr Gibbs",
-      "pos": "RB",
-      "team": "DET",
-      "status": "Active"
-    },
-    "9509": {
-      "name": "Bijan Robinson",
-      "pos": "RB",
-      "team": "ATL",
-      "status": "Active"
-    },
-    "8137": {
-      "name": "George Pickens",
+    "12501": {
+      "name": "Matthew Golden",
       "pos": "WR",
-      "team": "DAL",
+      "team": "GB",
+      "status": "Active"
+    },
+    "4195": {
+      "name": "Jake Elliott",
+      "pos": "K",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "4983": {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "8259": {
+      "name": "Cameron Dicker",
+      "pos": "K",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "11637": {
+      "name": "Keon Coleman",
+      "pos": "WR",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "11792": {
+      "name": "Will Reichard",
+      "pos": "K",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "8142": {
+      "name": "Alec Pierce",
+      "pos": "WR",
+      "team": "IND",
+      "status": "Active"
+    },
+    "7543": {
+      "name": "Travis Etienne",
+      "pos": "RB",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "6797": {
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "6790": {
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "4663": {
+      "name": "Austin Ekeler",
+      "pos": "RB",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "7569": {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "9224": {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "team": "CIN",
+      "status": "Active"
+    },
+    "12507": {
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "11627": {
+      "name": "Troy Franklin",
+      "pos": "WR",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "11604": {
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "team": "LV",
+      "status": "Active"
+    },
+    "3214": {
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "team": "NE",
+      "status": "Active"
+    },
+    "10229": {
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "team": "KC",
+      "status": "Active"
+    },
+    "6083": {
+      "name": "Matt Gay",
+      "pos": "K",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "12540": {
+      "name": "Chimere Dike",
+      "pos": "WR",
+      "team": "TEN",
+      "status": "Active"
+    },
+    "11564": {
+      "name": "Drake Maye",
+      "pos": "QB",
+      "team": "NE",
+      "status": "Active"
+    },
+    "7591": {
+      "name": "Justin Fields",
+      "pos": "QB",
+      "team": "NYJ",
+      "status": "Active"
+    },
+    "8676": {
+      "name": "Rashid Shaheed",
+      "pos": "WR",
+      "team": "NO",
+      "status": "Active"
+    },
+    "9500": {
+      "name": "Josh Downs",
+      "pos": "WR",
+      "team": "IND",
+      "status": "Active"
+    },
+    "8111": {
+      "name": "Cade Otton",
+      "pos": "TE",
+      "team": "TB",
       "status": "Active"
     },
     "6813": {
@@ -28757,28 +29962,22 @@
       "team": "IND",
       "status": "Active"
     },
-    "12529": {
-      "name": "TreVeyon Henderson",
+    "7567": {
+      "name": "Kenneth Gainwell",
       "pos": "RB",
-      "team": "NE",
+      "team": "PIT",
       "status": "Active"
     },
-    "8110": {
-      "name": "Jake Ferguson",
-      "pos": "TE",
+    "9226": {
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "12457": {
+      "name": "Jaydon Blue",
+      "pos": "RB",
       "team": "DAL",
-      "status": "Active"
-    },
-    "1479": {
-      "name": "Keenan Allen",
-      "pos": "WR",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "3678": {
-      "name": "Wil Lutz",
-      "pos": "K",
-      "team": "DEN",
       "status": "Active"
     },
     "7839": {
@@ -28787,58 +29986,28 @@
       "team": "CIN",
       "status": "Active"
     },
-    "11435": {
-      "name": "Emanuel Wilson",
+    "7588": {
+      "name": "Javonte Williams",
       "pos": "RB",
-      "team": "GB",
+      "team": "DAL",
       "status": "Active"
     },
-    "7547": {
-      "name": "Amon-Ra St. Brown",
-      "pos": "WR",
-      "team": "DET",
-      "status": "Active"
-    },
-    "8136": {
-      "name": "Rachaad White",
+    "11655": {
+      "name": "Tyrone Tracy",
       "pos": "RB",
-      "team": "TB",
+      "team": "NYG",
       "status": "Active"
     },
-    "8122": {
-      "name": "Bam Knight",
-      "pos": "RB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "4892": {
-      "name": "Baker Mayfield",
-      "pos": "QB",
-      "team": "TB",
-      "status": "Active"
-    },
-    "11586": {
-      "name": "Blake Corum",
-      "pos": "RB",
-      "team": "LAR",
-      "status": "Active"
-    },
-    "5022": {
-      "name": "Dallas Goedert",
+    "12506": {
+      "name": "Harold Fannin",
       "pos": "TE",
-      "team": "PHI",
+      "team": "CLE",
       "status": "Active"
     },
-    "6804": {
-      "name": "Jordan Love",
-      "pos": "QB",
-      "team": "GB",
-      "status": "Active"
-    },
-    "12495": {
-      "name": "Ollie Gordon",
-      "pos": "RB",
-      "team": "MIA",
+    "9997": {
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "team": "BAL",
       "status": "Active"
     },
     "5001": {
@@ -28847,10 +30016,10 @@
       "team": "HOU",
       "status": "Active"
     },
-    "8134": {
-      "name": "Khalil Shakir",
-      "pos": "WR",
-      "team": "BUF",
+    "12474": {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "team": "HOU",
       "status": "Active"
     },
     "12518": {
@@ -28859,130 +30028,16 @@
       "team": "IND",
       "status": "Active"
     },
-    "7049": {
-      "name": "Jauan Jennings",
+    "11632": {
+      "name": "Malik Nabers",
       "pos": "WR",
-      "team": "SF",
+      "team": "NYG",
       "status": "Active"
     },
-    "4039": {
-      "name": "Cooper Kupp",
-      "pos": "WR",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "6783": {
-      "name": "Jerry Jeudy",
-      "pos": "WR",
-      "team": "CLE",
-      "status": "Active"
-    },
-    "4033": {
-      "name": "David Njoku",
-      "pos": "TE",
-      "team": "CLE",
-      "status": "Active"
-    },
-    "4943": {
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "9753": {
-      "name": "Zach Charbonnet",
+    "7528": {
+      "name": "Najee Harris",
       "pos": "RB",
-      "team": "SEA",
-      "status": "Active"
-    },
-    "12514": {
-      "name": "Emeka Egbuka",
-      "pos": "WR",
-      "team": "TB",
-      "status": "Active"
-    },
-    "4981": {
-      "name": "Calvin Ridley",
-      "pos": "WR",
-      "team": "TEN",
-      "status": "Active"
-    },
-    "6865": {
-      "name": "Colby Parkinson",
-      "pos": "TE",
-      "team": "LAR",
-      "status": "Active"
-    },
-    "9480": {
-      "name": "Brenton Strange",
-      "pos": "TE",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "8130": {
-      "name": "Trey McBride",
-      "pos": "TE",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "9756": {
-      "name": "Jordan Addison",
-      "pos": "WR",
-      "team": "MIN",
-      "status": "Active"
-    },
-    "10232": {
-      "name": "Michael Wilson",
-      "pos": "WR",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "2216": {
-      "name": "Mike Evans",
-      "pos": "WR",
-      "team": "TB",
-      "status": "Active"
-    },
-    "5859": {
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "team": "PHI",
-      "status": "Active"
-    },
-    "4984": {
-      "name": "Josh Allen",
-      "pos": "QB",
-      "team": "BUF",
-      "status": "Active"
-    },
-    "4988": {
-      "name": "Nick Chubb",
-      "pos": "RB",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "6786": {
-      "name": "CeeDee Lamb",
-      "pos": "WR",
-      "team": "DAL",
-      "status": "Active"
-    },
-    "4018": {
-      "name": "Joe Mixon",
-      "pos": "RB",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "5849": {
-      "name": "Kyler Murray",
-      "pos": "QB",
-      "team": "ARI",
-      "status": "Active"
-    },
-    "6819": {
-      "name": "Michael Pittman",
-      "pos": "WR",
-      "team": "IND",
+      "team": "LAC",
       "status": "Active"
     },
     "5967": {
@@ -28991,39 +30046,184 @@
       "team": "TEN",
       "status": "Active"
     },
-    "7585": {
-      "name": "Davis Mills",
-      "pos": "QB",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "8138": {
-      "name": "James Cook",
+    "4098": {
+      "name": "Kareem Hunt",
       "pos": "RB",
-      "team": "BUF",
+      "team": "KC",
       "status": "Active"
     },
-    "11618": {
-      "name": "Jalen McMillan",
+    "8146": {
+      "name": "Garrett Wilson",
       "pos": "WR",
-      "team": "TB",
-      "status": "Inactive"
-    },
-    "12545": {
-      "name": "Tyler Shough",
-      "pos": "QB",
-      "team": "NO",
+      "team": "NYJ",
       "status": "Active"
     },
-    "11632": {
-      "name": "Malik Nabers",
+    "6803": {
+      "name": "Brandon Aiyuk",
+      "pos": "WR",
+      "team": "SF",
+      "status": "Active"
+    },
+    "12517": {
+      "name": "Colston Loveland",
+      "pos": "TE",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "6149": {
+      "name": "Darius Slayton",
       "pos": "WR",
       "team": "NYG",
       "status": "Active"
     },
-    "2307": {
-      "name": "Marcus Mariota",
+    "0": {},
+    "11603": {
+      "name": "AJ Barner",
+      "pos": "TE",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "12711": {
+      "name": "Tyler Loop",
+      "pos": "K",
+      "team": "BAL",
+      "status": "Active"
+    },
+    "4039": {
+      "name": "Cooper Kupp",
+      "pos": "WR",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "5189": {
+      "name": "Eddy Pineiro",
+      "pos": "K",
+      "team": "SF",
+      "status": "Active"
+    },
+    "10219": {
+      "name": "Chris Rodriguez",
+      "pos": "RB",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "7607": {
+      "name": "Michael Carter",
+      "pos": "RB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "8228": {
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "team": "PIT",
+      "status": "Active"
+    },
+    "6801": {
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "team": "CIN",
+      "status": "Active"
+    },
+    "8148": {
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "team": "DET",
+      "status": "Active"
+    },
+    "4866": {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "10213": {
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "team": "LV",
+      "status": "Active"
+    },
+    "9757": {
+      "name": "Kendre Miller",
+      "pos": "RB",
+      "team": "NO",
+      "status": "Active"
+    },
+    "1945": {
+      "name": "Chris Boswell",
+      "pos": "K",
+      "team": "PIT",
+      "status": "Active"
+    },
+    "7547": {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "team": "DET",
+      "status": "Active"
+    },
+    "12527": {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "team": "LV",
+      "status": "Active"
+    },
+    "5846": {
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "team": "PIT",
+      "status": "Active"
+    },
+    "5892": {
+      "name": "David Montgomery",
+      "pos": "RB",
+      "team": "DET",
+      "status": "Active"
+    },
+    "11566": {
+      "name": "Jayden Daniels",
       "pos": "QB",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "8154": {
+      "name": "Brian Robinson",
+      "pos": "RB",
+      "team": "SF",
+      "status": "Active"
+    },
+    "2449": {
+      "name": "Stefon Diggs",
+      "pos": "WR",
+      "team": "NE",
+      "status": "Active"
+    },
+    "9754": {
+      "name": "Quentin Johnston",
+      "pos": "WR",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "4454": {
+      "name": "Kendrick Bourne",
+      "pos": "WR",
+      "team": "SF",
+      "status": "Active"
+    },
+    "11533": {
+      "name": "Brandon Aubrey",
+      "pos": "K",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "11650": {
+      "name": "Luke McCaffrey",
+      "pos": "WR",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "1339": {
+      "name": "Zach Ertz",
+      "pos": "TE",
       "team": "WAS",
       "status": "Active"
     },
@@ -29033,52 +30233,10 @@
       "team": "MIA",
       "status": "Active"
     },
-    "9493": {
-      "name": "Puka Nacua",
-      "pos": "WR",
-      "team": "LAR",
-      "status": "Active"
-    },
-    "12512": {
-      "name": "Quinshon Judkins",
+    "12481": {
+      "name": "Cam Skattebo",
       "pos": "RB",
-      "team": "CLE",
-      "status": "Inactive"
-    },
-    "12490": {
-      "name": "Bhayshul Tuten",
-      "pos": "RB",
-      "team": "JAX",
-      "status": "Active"
-    },
-    "5892": {
-      "name": "David Montgomery",
-      "pos": "RB",
-      "team": "DET",
-      "status": "Active"
-    },
-    "12517": {
-      "name": "Colston Loveland",
-      "pos": "TE",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "17": {
-      "name": "Matt Prater",
-      "pos": "K",
-      "team": "BUF",
-      "status": "Active"
-    },
-    "5947": {
-      "name": "Jakobi Meyers",
-      "pos": "WR",
-      "team": "LV",
-      "status": "Active"
-    },
-    "3161": {
-      "name": "Carson Wentz",
-      "pos": "QB",
-      "team": "MIN",
+      "team": "NYG",
       "status": "Active"
     },
     "96": {
@@ -29087,58 +30245,130 @@
       "team": "PIT",
       "status": "Active"
     },
-    "11637": {
-      "name": "Keon Coleman",
+    "8147": {
+      "name": "John Metchie",
       "pos": "WR",
-      "team": "BUF",
-      "status": "Active"
-    },
-    "8183": {
-      "name": "Brock Purdy",
-      "pos": "QB",
-      "team": "SF",
-      "status": "Active"
-    },
-    "6790": {
-      "name": "D'Andre Swift",
-      "pos": "RB",
-      "team": "CHI",
-      "status": "Active"
-    },
-    "9225": {
-      "name": "Tank Bigsby",
-      "pos": "RB",
       "team": "PHI",
       "status": "Active"
     },
-    "11610": {
-      "name": "Malik Washington",
-      "pos": "WR",
-      "team": "MIA",
-      "status": "Active"
-    },
-    "3451": {
-      "name": "Ka'imi Fairbairn",
-      "pos": "K",
-      "team": "HOU",
-      "status": "Active"
-    },
-    "3163": {
-      "name": "Jared Goff",
+    "7523": {
+      "name": "Trevor Lawrence",
       "pos": "QB",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "6865": {
+      "name": "Colby Parkinson",
+      "pos": "TE",
+      "team": "LAR",
+      "status": "Active"
+    },
+    "8122": {
+      "name": "Bam Knight",
+      "pos": "RB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "11635": {
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "6794": {
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "11620": {
+      "name": "Rome Odunze",
+      "pos": "WR",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "7553": {
+      "name": "Kyle Pitts",
+      "pos": "TE",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "11628": {
+      "name": "Marvin Harrison",
+      "pos": "WR",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "1479": {
+      "name": "Keenan Allen",
+      "pos": "WR",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "4984": {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "6528": {
+      "name": "Joey Slye",
+      "pos": "K",
+      "team": "TEN",
+      "status": "Active"
+    },
+    "2306": {
+      "name": "Jameis Winston",
+      "pos": "QB",
+      "team": "NYG",
+      "status": "Active"
+    },
+    "9756": {
+      "name": "Jordan Addison",
+      "pos": "WR",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "12498": {
+      "name": "Mason Taylor",
+      "pos": "TE",
+      "team": "NYJ",
+      "status": "Active"
+    },
+    "4199": {
+      "name": "Aaron Jones",
+      "pos": "RB",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "9221": {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
       "team": "DET",
       "status": "Active"
     },
-    "8228": {
-      "name": "Jaylen Warren",
-      "pos": "RB",
-      "team": "PIT",
+    "5848": {
+      "name": "Hollywood Brown",
+      "pos": "WR",
+      "team": "KC",
       "status": "Active"
     },
-    "9504": {
-      "name": "Kayshon Boutte",
+    "5859": {
+      "name": "A.J. Brown",
       "pos": "WR",
-      "team": "NE",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "6039": {
+      "name": "Ty Johnson",
+      "pos": "RB",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "12534": {
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "team": "CHI",
       "status": "Active"
     },
     "11199": {
@@ -29147,64 +30377,16 @@
       "team": "ARI",
       "status": "Active"
     },
-    "11584": {
-      "name": "Bucky Irving",
-      "pos": "RB",
-      "team": "TB",
-      "status": "Active"
-    },
-    "7090": {
-      "name": "Darnell Mooney",
-      "pos": "WR",
-      "team": "ATL",
-      "status": "Active"
-    },
-    "9757": {
-      "name": "Kendre Miller",
-      "pos": "RB",
-      "team": "NO",
-      "status": "Active"
-    },
-    "6801": {
-      "name": "Tee Higgins",
-      "pos": "WR",
-      "team": "CIN",
-      "status": "Active"
-    },
-    "1166": {
-      "name": "Kirk Cousins",
+    "1234": {
+      "name": "Russell Wilson",
       "pos": "QB",
-      "team": "ATL",
+      "team": "NYG",
       "status": "Active"
     },
-    "12501": {
-      "name": "Matthew Golden",
-      "pos": "WR",
-      "team": "GB",
-      "status": "Active"
-    },
-    "12493": {
-      "name": "Oronde Gadsden",
-      "pos": "TE",
-      "team": "LAC",
-      "status": "Active"
-    },
-    "12499": {
-      "name": "Elic Ayomanor",
-      "pos": "WR",
-      "team": "TEN",
-      "status": "Active"
-    },
-    "8132": {
-      "name": "Tyler Allgeier",
-      "pos": "RB",
-      "team": "ATL",
-      "status": "Active"
-    },
-    "8148": {
-      "name": "Jameson Williams",
-      "pos": "WR",
-      "team": "DET",
+    "9758": {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "team": "HOU",
       "status": "Active"
     },
     "19": {
@@ -29213,16 +30395,28 @@
       "team": "CLE",
       "status": "Active"
     },
-    "7567": {
-      "name": "Kenneth Gainwell",
-      "pos": "RB",
-      "team": "PIT",
+    "3161": {
+      "name": "Carson Wentz",
+      "pos": "QB",
+      "team": "MIN",
       "status": "Active"
     },
-    "9484": {
-      "name": "Tucker Kraft",
-      "pos": "TE",
-      "team": "GB",
+    "5970": {
+      "name": "Greg Dortch",
+      "pos": "WR",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "11589": {
+      "name": "Trey Benson",
+      "pos": "RB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "2020": {
+      "name": "Cairo Santos",
+      "pos": "K",
+      "team": "CHI",
       "status": "Active"
     },
     "421": {
@@ -29231,10 +30425,802 @@
       "team": "LAR",
       "status": "Active"
     },
-    "7543": {
-      "name": "Travis Etienne",
+    "12489": {
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "3678": {
+      "name": "Wil Lutz",
+      "pos": "K",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "12530": {
+      "name": "Travis Hunter",
+      "pos": "WR",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "4227": {
+      "name": "Harrison Butker",
+      "pos": "K",
+      "team": "KC",
+      "status": "Active"
+    },
+    "1166": {
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "8138": {
+      "name": "James Cook",
+      "pos": "RB",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "1466": {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "team": "KC",
+      "status": "Active"
+    },
+    "12545": {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "team": "NO",
+      "status": "Active"
+    },
+    "6806": {
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "12533": {
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "10859": {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "team": "DET",
+      "status": "Active"
+    },
+    "4033": {
+      "name": "David Njoku",
+      "pos": "TE",
+      "team": "CLE",
+      "status": "Active"
+    },
+    "9504": {
+      "name": "Kayshon Boutte",
+      "pos": "WR",
+      "team": "NE",
+      "status": "Active"
+    },
+    "12512": {
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "team": "CLE",
+      "status": "Inactive"
+    },
+    "4137": {
+      "name": "James Conner",
+      "pos": "RB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "9494": {
+      "name": "Marvin Mims",
+      "pos": "WR",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "12514": {
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Active"
+    },
+    "6783": {
+      "name": "Jerry Jeudy",
+      "pos": "WR",
+      "team": "CLE",
+      "status": "Active"
+    },
+    "12508": {
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "team": "NYG",
+      "status": "Active"
+    },
+    "5927": {
+      "name": "Terry McLaurin",
+      "pos": "WR",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "17": {
+      "name": "Matt Prater",
+      "pos": "K",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "4046": {
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "team": "KC",
+      "status": "Active"
+    },
+    "12490": {
+      "name": "Bhayshul Tuten",
       "pos": "RB",
       "team": "JAX",
+      "status": "Active"
+    },
+    "2307": {
+      "name": "Marcus Mariota",
+      "pos": "QB",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "6768": {
+      "name": "Tua Tagovailoa",
+      "pos": "QB",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "5872": {
+      "name": "Deebo Samuel",
+      "pos": "WR",
+      "team": "WAS",
+      "status": "Active"
+    },
+    "6804": {
+      "name": "Jordan Love",
+      "pos": "QB",
+      "team": "GB",
+      "status": "Active"
+    },
+    "7021": {
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "team": "CAR",
+      "status": "Active"
+    },
+    "7049": {
+      "name": "Jauan Jennings",
+      "pos": "WR",
+      "team": "SF",
+      "status": "Active"
+    },
+    "12524": {
+      "name": "Shedeur Sanders",
+      "pos": "QB",
+      "team": "CLE",
+      "status": "Active"
+    },
+    "10444": {
+      "name": "Cedric Tillman",
+      "pos": "WR",
+      "team": "CLE",
+      "status": "Active"
+    },
+    "11638": {
+      "name": "Ricky Pearsall",
+      "pos": "WR",
+      "team": "SF",
+      "status": "Active"
+    },
+    "9493": {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "team": "LAR",
+      "status": "Active"
+    },
+    "9753": {
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "2747": {
+      "name": "Jason Myers",
+      "pos": "K",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "9480": {
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "8112": {
+      "name": "Drake London",
+      "pos": "WR",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "11610": {
+      "name": "Malik Washington",
+      "pos": "WR",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "7525": {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "9508": {
+      "name": "Tyjae Spears",
+      "pos": "RB",
+      "team": "TEN",
+      "status": "Inactive"
+    },
+    "11647": {
+      "name": "Kimani Vidal",
+      "pos": "RB",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "3198": {
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "team": "BAL",
+      "status": "Active"
+    },
+    "6111": {
+      "name": "Jake Browning",
+      "pos": "QB",
+      "team": "CIN",
+      "status": "Active"
+    },
+    "4066": {
+      "name": "Evan Engram",
+      "pos": "TE",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "8917": {
+      "name": "KaVontae Turpin",
+      "pos": "WR",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "5947": {
+      "name": "Jakobi Meyers",
+      "pos": "WR",
+      "team": "LV",
+      "status": "Active"
+    },
+    "1373": {
+      "name": "Geno Smith",
+      "pos": "QB",
+      "team": "LV",
+      "status": "Active"
+    },
+    "4892": {
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "team": "TB",
+      "status": "Active"
+    },
+    "12495": {
+      "name": "Ollie Gordon",
+      "pos": "RB",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "11618": {
+      "name": "Jalen McMillan",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Inactive"
+    },
+    "7090": {
+      "name": "Darnell Mooney",
+      "pos": "WR",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "12493": {
+      "name": "Oronde Gadsden",
+      "pos": "TE",
+      "team": "LAC",
+      "status": "Active"
+    },
+    "8136": {
+      "name": "Rachaad White",
+      "pos": "RB",
+      "team": "TB",
+      "status": "Active"
+    },
+    "7002": {
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "team": "NO",
+      "status": "Active"
+    },
+    "12476": {
+      "name": "Devin Neal",
+      "pos": "RB",
+      "team": "NO",
+      "status": "Active"
+    },
+    "7594": {
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "team": "CAR",
+      "status": "Active"
+    },
+    "6786": {
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "9509": {
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "4950": {
+      "name": "Christian Kirk",
+      "pos": "WR",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "8110": {
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "9488": {
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "8205": {
+      "name": "Isiah Pacheco",
+      "pos": "RB",
+      "team": "KC",
+      "status": "Active"
+    },
+    "6904": {
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "12519": {
+      "name": "Luther Burden",
+      "pos": "WR",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "4943": {
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "12504": {
+      "name": "Kaleb Johnson",
+      "pos": "RB",
+      "team": "PIT",
+      "status": "Active"
+    },
+    "2216": {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Active"
+    },
+    "9225": {
+      "name": "Tank Bigsby",
+      "pos": "RB",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "12185": {
+      "name": "Spencer Shrader",
+      "pos": "K",
+      "team": "IND",
+      "status": "Active"
+    },
+    "11586": {
+      "name": "Blake Corum",
+      "pos": "RB",
+      "team": "LAR",
+      "status": "Active"
+    },
+    "7611": {
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "team": "NE",
+      "status": "Active"
+    },
+    "4988": {
+      "name": "Nick Chubb",
+      "pos": "RB",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "1433": {
+      "name": "Brandon McManus",
+      "pos": "K",
+      "team": "GB",
+      "status": "Active"
+    },
+    "11560": {
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "team": "CHI",
+      "status": "Active"
+    },
+    "10232": {
+      "name": "Michael Wilson",
+      "pos": "WR",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "5849": {
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "8151": {
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "team": "SEA",
+      "status": "Active"
+    },
+    "3451": {
+      "name": "Ka'imi Fairbairn",
+      "pos": "K",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "8126": {
+      "name": "Wan'Dale Robinson",
+      "pos": "WR",
+      "team": "NYG",
+      "status": "Active"
+    },
+    "11559": {
+      "name": "Michael Penix",
+      "pos": "QB",
+      "team": "ATL",
+      "status": "Active"
+    },
+    "9228": {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "team": "CAR",
+      "status": "Active"
+    },
+    "5850": {
+      "name": "Josh Jacobs",
+      "pos": "RB",
+      "team": "GB",
+      "status": "Active"
+    },
+    "5012": {
+      "name": "Mark Andrews",
+      "pos": "TE",
+      "team": "BAL",
+      "status": "Active"
+    },
+    "4981": {
+      "name": "Calvin Ridley",
+      "pos": "WR",
+      "team": "TEN",
+      "status": "Active"
+    },
+    "11631": {
+      "name": "Brian Thomas",
+      "pos": "WR",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "6819": {
+      "name": "Michael Pittman",
+      "pos": "WR",
+      "team": "IND",
+      "status": "Active"
+    },
+    "12529": {
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "team": "NE",
+      "status": "Active"
+    },
+    "3257": {
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "4217": {
+      "name": "George Kittle",
+      "pos": "TE",
+      "team": "SF",
+      "status": "Inactive"
+    },
+    "4881": {
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "team": "BAL",
+      "status": "Active"
+    },
+    "12484": {
+      "name": "Jayden Higgins",
+      "pos": "WR",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "11624": {
+      "name": "Xavier Worthy",
+      "pos": "WR",
+      "team": "KC",
+      "status": "Active"
+    },
+    "11563": {
+      "name": "Bo Nix",
+      "pos": "QB",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "2133": {
+      "name": "Davante Adams",
+      "pos": "WR",
+      "team": "LAR",
+      "status": "Active"
+    },
+    "3321": {
+      "name": "Tyreek Hill",
+      "pos": "WR",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "5230": {
+      "name": "Michael Badgley",
+      "pos": "K",
+      "team": null,
+      "status": "Active"
+    },
+    "8134": {
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "team": "BUF",
+      "status": "Active"
+    },
+    "6650": {
+      "name": "Chase McLaughlin",
+      "pos": "K",
+      "team": "TB",
+      "status": "Active"
+    },
+    "9487": {
+      "name": "Parker Washington",
+      "pos": "WR",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "5870": {
+      "name": "Daniel Jones",
+      "pos": "QB",
+      "team": "IND",
+      "status": "Active"
+    },
+    "2505": {
+      "name": "Darren Waller",
+      "pos": "TE",
+      "team": "MIA",
+      "status": "Active"
+    },
+    "3200": {
+      "name": "Sterling Shepard",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Active"
+    },
+    "8150": {
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "team": "LAR",
+      "status": "Active"
+    },
+    "9484": {
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "team": "GB",
+      "status": "Active"
+    },
+    "3294": {
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "8155": {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "team": "NYJ",
+      "status": "Active"
+    },
+    "8137": {
+      "name": "George Pickens",
+      "pos": "WR",
+      "team": "DAL",
+      "status": "Active"
+    },
+    "6770": {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "team": "CIN",
+      "status": "Active"
+    },
+    "8130": {
+      "name": "Trey McBride",
+      "pos": "TE",
+      "team": "ARI",
+      "status": "Active"
+    },
+    "12455": {
+      "name": "Brashard Smith",
+      "pos": "RB",
+      "team": "KC",
+      "status": "Active"
+    },
+    "7527": {
+      "name": "Mac Jones",
+      "pos": "QB",
+      "team": "SF",
+      "status": "Active"
+    },
+    "5844": {
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "11626": {
+      "name": "Xavier Legette",
+      "pos": "WR",
+      "team": "CAR",
+      "status": "Active"
+    },
+    "8183": {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "team": "SF",
+      "status": "Active"
+    },
+    "8121": {
+      "name": "Romeo Doubs",
+      "pos": "WR",
+      "team": "GB",
+      "status": "Active"
+    },
+    "12485": {
+      "name": "Tez Johnson",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Active"
+    },
+    "8698": {
+      "name": "Jake Tonges",
+      "pos": "TE",
+      "team": "SF",
+      "status": "Active"
+    },
+    "8167": {
+      "name": "Christian Watson",
+      "pos": "WR",
+      "team": "GB",
+      "status": "Active"
+    },
+    "11584": {
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "team": "TB",
+      "status": "Active"
+    },
+    "4037": {
+      "name": "Chris Godwin",
+      "pos": "WR",
+      "team": "TB",
+      "status": "Inactive"
+    },
+    "11435": {
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "team": "GB",
+      "status": "Active"
+    },
+    "3163": {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "team": "DET",
+      "status": "Active"
+    },
+    "4018": {
+      "name": "Joe Mixon",
+      "pos": "RB",
+      "team": "HOU",
+      "status": "Active"
+    },
+    "12499": {
+      "name": "Elic Ayomanor",
+      "pos": "WR",
+      "team": "TEN",
+      "status": "Active"
+    },
+    "7564": {
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "team": "CIN",
+      "status": "Active"
+    },
+    "5045": {
+      "name": "Courtland Sutton",
+      "pos": "WR",
+      "team": "DEN",
+      "status": "Active"
+    },
+    "11786": {
+      "name": "Cam Little",
+      "pos": "K",
+      "team": "JAX",
+      "status": "Active"
+    },
+    "8144": {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "team": "NO",
+      "status": "Active"
+    },
+    "12713": {
+      "name": "Andy Borregales",
+      "pos": "K",
+      "team": "NE",
+      "status": "Active"
+    },
+    "5022": {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "team": "PHI",
+      "status": "Active"
+    },
+    "11565": {
+      "name": "J.J. McCarthy",
+      "pos": "QB",
+      "team": "MIN",
+      "status": "Active"
+    },
+    "12526": {
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "team": "CAR",
+      "status": "Active"
+    },
+    "4034": {
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "team": "SF",
       "status": "Active"
     }
   }
